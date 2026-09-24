@@ -1,0 +1,9 @@
+PRUEBA DE INFRAESTRUCTURA — NO es un anclaje del experimento.
+INFRASTRUCTURE TEST — NOT an experiment anchor.
+
+Fecha (UTC): 2026-09-24T04:28:03Z
+Propósito: verificar deploy key, push, protección de main y OpenTimestamps
+antes del congelado de la metodología de RALL Fase 2.
+Los anclajes reales empezarán en anchors/ tras el congelado.
+
+paper_log_chain_head_sha256 (a título de prueba): b13a4ab2fa1fb4eac0078fc3ef5c02b7cfae446fd15e60d7fc0199a0c3967de0
