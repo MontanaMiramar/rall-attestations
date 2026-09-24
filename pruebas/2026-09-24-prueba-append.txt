@@ -1,0 +1,7 @@
+PRUEBA DE INFRAESTRUCTURA — NO es un anclaje del experimento.
+INFRASTRUCTURE TEST — NOT an experiment anchor.
+
+Fecha (UTC): 2026-09-24T05:25:53Z
+Propósito: comprobar que la protección de main (sin force push ni borrado)
+sigue permitiendo un push normal, que es lo que harán los anclajes diarios.
+Previo: el force push y el borrado de main fueron rechazados con esta misma clave.
