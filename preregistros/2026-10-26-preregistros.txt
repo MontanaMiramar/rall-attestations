@@ -1,0 +1,29 @@
+RALL Fase 2 — anclaje de los pre-registros sellados / sealed pre-registrations anchor
+
+Anclado / anchored (hora del servidor / server time): 2026-10-26T19:05:12Z
+Archivos / files: 13 (hashes SHA-256 en el .sha256 de al lado / SHA-256 in the sibling .sha256)
+
+Fecha de sellado declarada por el servidor (NO demostrada por este anclaje) / server-declared seal time (NOT proven by this anchor):
+  2026-10-13T05:03:14Z  umbrales_preregistrados.json  [anotado en el registro retroactivamente / registered retroactively]
+  2026-10-16T05:34:54Z  CRITERIO_AGREGACION_GAS.json
+  2026-10-16T05:34:54Z  aplicar_criterio_agregacion.py
+  2026-10-16T07:35:13Z  reglas_niveles.json
+  2026-10-16T07:59:44Z  CRITERIO_R6C.json
+  2026-10-16T07:59:44Z  aplicar_criterio_r6c.py
+  2026-10-21T07:01:12Z  reglas_niveles_v2.json  [declarado post-hoc / declared post-hoc]
+  2026-10-23T07:01:04Z  FALSACION_DEFI.json
+  2026-10-23T07:01:04Z  FALSACION_DEFI_v1.0.md
+  2026-10-23T07:01:04Z  aplicar_falsacion_defi.py
+  2026-10-26T05:41:44Z  COMPROBACION7.json  [declarado post-hoc / declared post-hoc]
+  2026-10-26T05:41:44Z  COMPROBACION7_v1.0.md  [declarado post-hoc / declared post-hoc]
+  2026-10-26T05:41:44Z  aplicar_comprobacion7.py  [declarado post-hoc / declared post-hoc]
+
+QUÉ DEMUESTRA este anclaje (con su .ots, tras confirmarse en Bitcoin):
+  - que estos archivos, con exactamente estos hashes, existían a más tardar en la fecha del bloque de Bitcoin del sello.
+QUÉ NO DEMUESTRA:
+  - las fechas de sellado anteriores de la lista de arriba: las declara el reloj del servidor;
+  - que no existieran versiones anteriores distintas de estos archivos;
+  - su contenido: aquí solo hay hashes; se podrá comprobar cuando se publique cada archivo (sha256sum -c).
+
+WHAT this anchor PROVES (with its .ots, once confirmed in Bitcoin): these exact files existed no later than the Bitcoin block time.
+WHAT it does NOT prove: the earlier server-declared seal times above; that no different earlier versions existed; their content (hashes only).
