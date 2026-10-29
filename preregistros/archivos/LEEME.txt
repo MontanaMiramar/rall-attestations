@@ -1,0 +1,17 @@
+Archivos sellados publicados byte a byte / sealed files published byte for byte
+
+Cada archivo de esta carpeta tiene su hash en ../2026-10-26-preregistros.sha256, anclado en Bitcoin (bloque 973276). /
+Each file in this folder has its hash in ../2026-10-26-preregistros.sha256, anchored in Bitcoin (block 973276).
+
+Comprobación / check:
+  cd preregistros/archivos
+  sha256sum -c --ignore-missing ../2026-10-26-preregistros.sha256
+
+Debe responder «OK» para cada archivo publicado. Los que todavía no se han publicado no aparecen. /
+It must answer "OK" for every published file. Files not yet published are skipped.
+
+Clonar con / clone with:  git clone -c core.autocrlf=false https://github.com/MontanaMiramar/rall-attestations.git
+
+FALSACION_DEFI_v1.0.md: texto sellado de la condición de falsación. Ver ../2026-10-29-correccion-etiquetas.txt.
+  Este texto sellado NO es la versión que se aprobó (v0.2). Las diferencias se publican aparte. /
+  This sealed text is NOT the approved version (v0.2). The differences are published separately.

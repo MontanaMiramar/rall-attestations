@@ -1,0 +1,46 @@
+RALL Fase 2 — corrección de las etiquetas del anclaje de pre-registros / correction of the labels in the pre-registrations anchor
+
+Fecha / date: 2026-10-29 (hora del servidor / server time; la fecha demostrable es la del bloque de Bitcoin de este archivo .ots / the provable date is the Bitcoin block of this file's .ots)
+
+CORRIGE / CORRECTS:
+  preregistros/2026-10-26-preregistros.txt  (sha256 742b76f6649b4fdf1d2f895b3977ae0939e405de4ad057458490f087fcb83bbe), anclado en el bloque 973276 / anchored in block 973276.
+  Ese archivo NO se modifica. Sus hashes, sus 13 archivos y su cota de fecha no cambian. /
+  That file is NOT modified. Its hashes, its 13 files and its date bound do not change.
+
+QUÉ ESTÁ MAL / WHAT IS WRONG:
+  Las etiquetas entre corchetes de sus líneas 7 a 19. Marca 4 de los 13 archivos como «declarado post-hoc» (líneas 13, 17, 18 y 19) y deja sin esa etiqueta los otros 9 (líneas 7 a 12 y 14 a 16). /
+  The bracketed labels on its lines 7 to 19. It marks 4 of the 13 files as "declared post-hoc" (lines 13, 17, 18 and 19) and leaves the other 9 without that label (lines 7 to 12 and 14 to 16).
+
+RECUENTO CORRECTO / CORRECT COUNT:
+  13 de 13 archivos son post-hoc (7 de 7 pre-registros). / 13 of 13 files are post-hoc (7 of 7 pre-registrations).
+  Los 13 archivos son 7 criterios, más 2 textos que acompañan a su criterio y 4 scripts que aplican su criterio; cada uno toma la clasificación de su pre-registro. /
+  The 13 files are 7 criteria, plus 2 texts that accompany their criterion and 4 scripts that apply their criterion; each takes the classification of its pre-registration.
+
+  linea  archivo                         antes / before            ahora / now
+  7      umbrales_preregistrados.json    retroactivo               post-hoc y retroactivo / post-hoc and retroactive
+  8      CRITERIO_AGREGACION_GAS.json    —                         post-hoc
+  9      aplicar_criterio_agregacion.py  —                         post-hoc
+  10     reglas_niveles.json             —                         post-hoc
+  11     CRITERIO_R6C.json               —                         post-hoc
+  12     aplicar_criterio_r6c.py         —                         post-hoc
+  13     reglas_niveles_v2.json          post-hoc                  post-hoc
+  14     FALSACION_DEFI.json             —                         post-hoc
+  15     FALSACION_DEFI_v1.0.md          —                         post-hoc
+  16     aplicar_falsacion_defi.py       —                         post-hoc
+  17-19  COMPROBACION7 (3 archivos)      post-hoc                  post-hoc
+
+POR QUÉ ESTABA MAL / WHY IT WAS WRONG:
+  La etiqueta salía de un campo de un registro interno que solo se había rellenado en 2 de los 7 pre-registros. Las etiquetas no tenían definición escrita: se nombraron sobre la marcha (16 y 21 de octubre de 2026) y se publicaron sin definir. /
+  The label came from a field of an internal registry that had been filled in for only 2 of the 7 pre-registrations. The labels had no written definition: they were named on the fly (16 and 21 October 2026) and published undefined.
+
+DEFINICIONES (escritas el 2026-10-29) / DEFINITIONS (written 2026-10-29):
+  post-hoc: la regla se escribió después de haber visto datos del experimento relacionados con lo que esa regla decide. /
+  post-hoc: the rule was written after seeing experiment data related to what that rule decides.
+  retroactivo: el archivo lleva una fecha de sellado, pero su entrada en el registro se escribió después, y en ese intervalo el archivo no estaba protegido contra escritura. /
+  retroactive: the file carries a seal date, but its registry entry was written later, and in that interval the file was not write-protected.
+  «Post-hoc» NO significa «elegido para dar el resultado que conviene»; eso es otra cosa, y no es lo que mide esta etiqueta. /
+  "Post-hoc" does NOT mean "chosen to produce a convenient result"; that is a different matter and not what this label measures.
+
+DIRECCIÓN DEL ERROR / DIRECTION OF THE ERROR:
+  A favor del proyecto: con 4 etiquetas en lugar de 13, los pre-registros parecían escritos con menos conocimiento de los datos del que tuvieron. /
+  In the project's favour: with 4 labels instead of 13, the pre-registrations looked written with less knowledge of the data than they had.
