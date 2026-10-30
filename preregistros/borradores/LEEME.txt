@@ -1,0 +1,36 @@
+Borrador NO anclado de la condición de falsación / NON-anchored draft of the falsification condition
+
+FALSACION_DEFI_PROPUESTA_v0.2.md
+  sha256: 7d3ca2fabe811f0078d860fdf424f1ad276ec10dbc54b6c462687fc0f765acf5
+  Publicado byte a byte, sin redactar nada. / Published byte for byte, nothing redacted.
+
+QUÉ SE PUEDE COMPROBAR / WHAT CAN BE CHECKED:
+  Solo su contenido: que este archivo tiene el sha256 de arriba, el mismo que citan nuestros documentos. /
+  Only its content: that this file has the sha256 above, the same one our documents cite.
+
+QUÉ NO SE PUEDE COMPROBAR / WHAT CANNOT BE CHECKED:
+  - Su fecha: NO se ancló nunca y su hash no aparece en ningún archivo anclado. /
+    Its date: it was NEVER anchored and its hash appears in no anchored file.
+  - Que fuera la versión aprobada. Lo único que lo sostiene es el registro interno del proyecto (el mensaje de aprobación de
+    2026-10-23 06:25:31 UTC). Eso NO es una prueba para un tercero. /
+    That it was the approved version. The only support is the project's internal record (the approval message of
+    2026-10-23 06:25:31 UTC). That is NOT proof for a third party.
+
+EXCEPCIÓN A UNA REGLA DEL PROYECTO, DECLARADA / EXCEPTION TO A PROJECT RULE, DECLARED:
+  Este archivo se publica A SABIENDAS de que contiene resultados parciales del ensayo con nombres de protocolo (líneas 13
+  y 99). El proyecto tiene la regla de no publicar resultados parciales del ensayo; esta publicación es una excepción a
+  esa regla, aprobada por Rod el 2026-10-30. Se hizo la excepción porque redactar esas líneas cambiaría el sha256, y
+  entonces el texto publicado ya no serviría para comprobar que es el mismo que citan nuestros documentos. /
+  This file is published KNOWINGLY that it contains partial results of the trial with protocol names (lines 13 and 99).
+  The project has a rule not to publish partial trial results; this publication is an exception to that rule, approved
+  by Rod on 2026-10-30. The exception was made because redacting those lines would change the sha256, and the published
+  text would then be useless for checking that it is the same one our documents cite.
+
+OTRA COSA QUE CONVIENE SABER / ALSO WORTH KNOWING:
+  - La línea 148 menciona «/root»: es la ruta genérica del directorio del administrador en cualquier sistema Unix, sin
+    datos. La línea describe cómo se sellaba (permisos de solo lectura, inmutabilidad, un registro de solo-añadir y una
+    copia del hash). /
+    Line 148 mentions "/root": the generic path of the administrator's directory on any Unix system, with no data. The
+    line describes how sealing was done (read-only permissions, immutability, an append-only registry and a copy of the hash).
+
+Versión sellada (distinta de esta) / sealed version (different from this one): ../archivos/FALSACION_DEFI_v1.0.md
