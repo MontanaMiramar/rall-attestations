@@ -1,0 +1,1585 @@
+{
+ "schema": "rall-fase2-d0-seleccion/3",
+ "metodologia": "v1.33-draft",
+ "mode": "live",
+ "day": "2026-11-11",
+ "seed": {
+  "height": 975360,
+  "hash": "00000000000000000001e10901ef7b99169293019afe4b5acf3dea43ff6d2880",
+  "timestamp": 1794356387,
+  "fuente": "blockstream.info",
+  "regla": "F3: menor altura con timestamp >= 00:00:00 UTC; semilla = 32 bytes del hash"
+ },
+ "regla_orden": "F3: sha256(32 bytes de semilla ‖ 20 bytes de dirección), ascendente, SOLO entre medibles (§2.3)",
+ "tvl_min_usd": 250000,
+ "n_max": 3,
+ "min_expiry_days": 31,
+ "M": 10,
+ "no_dolar_F6": {
+  "VOLT": [
+   "peggedVAR"
+  ],
+  "RAI": [
+   "peggedVAR"
+  ],
+  "FLOAT": [
+   "peggedVAR"
+  ],
+  "EURT": [
+   "peggedEUR"
+  ],
+  "EURC": [
+   "peggedEUR"
+  ],
+  "EURS": [
+   "peggedEUR"
+  ],
+  "EURM": [
+   "peggedEUR"
+  ],
+  "SEUR": [
+   "peggedEUR"
+  ],
+  "EURA": [
+   "peggedEUR"
+  ],
+  "PAR": [
+   "peggedEUR"
+  ],
+  "FPI": [
+   "peggedVAR"
+  ],
+  "IBEUR": [
+   "peggedEUR"
+  ],
+  "EUROE": [
+   "peggedEUR"
+  ],
+  "EURE": [
+   "peggedEUR"
+  ],
+  "DCHF": [
+   "peggedVAR"
+  ],
+  "SILK": [
+   "peggedVAR"
+  ],
+  "GYEN": [
+   "peggedJPY"
+  ],
+  "LCNY": [
+   "peggedCNY"
+  ],
+  "UAHT": [
+   "peggedUAH"
+  ],
+  "NARS": [
+   "peggedARS"
+  ],
+  "CDT": [
+   "peggedVAR"
+  ],
+  "EEUR": [
+   "peggedEUR"
+  ],
+  "EGBP": [
+   "peggedGBP"
+  ],
+  "CADC": [
+   "peggedCAD"
+  ],
+  "AEUR": [
+   "peggedEUR"
+  ],
+  "VCHF": [
+   "peggedCHF"
+  ],
+  "VEUR": [
+   "peggedEUR"
+  ],
+  "EURD": [
+   "peggedEUR"
+  ],
+  "AUDD": [
+   "peggedAUD"
+  ],
+  "FETH": [
+   "peggedVAR"
+  ],
+  "EURO3": [
+   "peggedEUR"
+  ],
+  "HAI": [
+   "peggedVAR"
+  ],
+  "CJPY": [
+   "peggedJPY"
+  ],
+  "ZUNETH": [
+   "peggedVAR"
+  ],
+  "BRLM": [
+   "peggedREAL"
+  ],
+  "HCHF": [
+   "peggedCHF"
+  ],
+  "ZCHF": [
+   "peggedCHF"
+  ],
+  "EURR": [
+   "peggedEUR"
+  ],
+  "EUROP": [
+   "peggedEUR"
+  ],
+  "EURCV": [
+   "peggedEUR"
+  ],
+  "A7A5": [
+   "peggedRUB"
+  ],
+  "EURQ": [
+   "peggedEUR"
+  ],
+  "CNHT": [
+   "peggedCNY"
+  ],
+  "MXNT": [
+   "peggedMXN"
+  ],
+  "XSGD": [
+   "peggedSGD"
+  ],
+  "VGBP": [
+   "peggedGBP"
+  ],
+  "PHT": [
+   "peggedPHP"
+  ],
+  "TRYB": [
+   "peggedTRY"
+  ],
+  "TGBP": [
+   "peggedGBP"
+  ],
+  "EURAU": [
+   "peggedEUR"
+  ],
+  "EURI": [
+   "peggedEUR"
+  ],
+  "AUDM": [
+   "peggedAUD"
+  ],
+  "RUBT": [
+   "peggedRUB"
+  ],
+  "BRTH": [
+   "peggedREAL"
+  ],
+  "JPYC": [
+   "peggedJPY"
+  ],
+  "GBPM": [
+   "peggedGBP"
+  ],
+  "PHPM": [
+   "peggedPHP"
+  ],
+  "CADM": [
+   "peggedCAD"
+  ],
+  "COPM": [
+   "peggedCOP"
+  ],
+  "JPYM": [
+   "peggedJPY"
+  ],
+  "BRLA": [
+   "peggedREAL"
+  ],
+  "KESM": [
+   "peggedKES"
+  ],
+  "ZARM": [
+   "peggedZAR"
+  ],
+  "NGNM": [
+   "peggedNGN"
+  ],
+  "CHFM": [
+   "peggedCHF"
+  ],
+  "XOFM": [
+   "peggedXOF"
+  ],
+  "GHSM": [
+   "peggedGHS"
+  ],
+  "WARS": [
+   "peggedARS"
+  ],
+  "WBRL": [
+   "peggedREAL"
+  ],
+  "WCLP": [
+   "peggedCLP"
+  ],
+  "WCOP": [
+   "peggedCOP"
+  ],
+  "WMXN": [
+   "peggedMXN"
+  ],
+  "WPEN": [
+   "peggedPEN"
+  ],
+  "CADD": [
+   "peggedCAD"
+  ],
+  "EURW": [
+   "peggedEUR"
+  ],
+  "HAEUR": [
+   "peggedEUR"
+  ],
+  "GBPA": [
+   "peggedGBP"
+  ],
+  "MYRT": [
+   "peggedMYR"
+  ],
+  "REUR": [
+   "peggedEUR"
+  ],
+  "AUDF": [
+   "peggedAUD"
+  ],
+  "DEURO": [
+   "peggedEUR"
+  ],
+  "QCAD": [
+   "peggedCAD"
+  ],
+  "JPYSC": [
+   "peggedJPY"
+  ],
+  "KRWQ": [
+   "peggedKRW"
+  ],
+  "KRW1": [
+   "peggedKRW"
+  ],
+  "HKDAP": [
+   "peggedHKD"
+  ],
+  "QEURO": [
+   "peggedEUR"
+  ],
+  "GBPE": [
+   "peggedGBP"
+  ],
+  "JPYDF": [
+   "peggedJPY"
+  ],
+  "BRL1": [
+   "peggedREAL"
+  ],
+  "DDSC": [
+   "peggedAED"
+  ],
+  "ITRY": [
+   "peggedTRY"
+  ],
+  "XCHF": [
+   "peggedCHF"
+  ],
+  "XIDR": [
+   "peggedIDR"
+  ],
+  "MXNE": [
+   "peggedMXN"
+  ]
+ },
+ "elegibles": {
+  "control|aave-v3|base": [
+   {
+    "address": "0x4e65fe4dba92790696d040ac24aa414708f5c0ab",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "symbol": "USDC",
+    "llama_pool": "7e0661bf-8cf3-45e6-9424-31916d4c7b84",
+    "tvl_llama": 15609042,
+    "apy_llama": 7.36501,
+    "orden": "383485cd72e8741d79af7289938c257f4e68e1750bd0fee2738bc20942df1363"
+   }
+  ],
+  "control|aave-v3|arbitrum": [
+   {
+    "address": "0x724dc807b04555b71ed48a6896b6f41593b8c637",
+    "asset": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "symbol": "USDC",
+    "llama_pool": "d9fa8e14-0447-4207-9ae8-7810199dfa1f",
+    "tvl_llama": 36736507,
+    "apy_llama": 2.89125,
+    "orden": "146bdb3bfa3763eec280ea579cfe3963f4ba84afdc71bb8de4c8c0559224e9e0"
+   },
+   {
+    "address": "0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee",
+    "asset": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "symbol": "DAI",
+    "llama_pool": "a8e3d841-2788-4647-ad54-5a36fac451b1",
+    "tvl_llama": 947153,
+    "apy_llama": 1.32654,
+    "orden": "4fb371d23ec51d7e9db2094a9dcf2fa7688acf7c44f685b5cd0cdf8f64e2200f"
+   }
+  ],
+  "P-A|yearn|base": [
+   {
+    "address": "0xF115C134c23C7A05FBD489A8bE3116EbF54B0D9f",
+    "kind": "yearn-tokenized",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "symbol": "USDC",
+    "decimals": 6,
+    "name": "Morpho Yearn OG USDC Compounder",
+    "llama_pool": "ea721c71-9a61-481d-aa52-b0198f325c66",
+    "tvl_llama": 1981367,
+    "tvl_ydaemon": 1981366.57043526,
+    "apy_llama": 15.99241,
+    "legs": [
+     {
+      "strategy": "0xF115C134c23C7A05FBD489A8bE3116EbF54B0D9f",
+      "counterpart": "0xef417a2512c5a41f69ae4e021648b69a7cde5d03"
+     }
+    ],
+    "emparejamiento": "13 candidatos; TVL más cercano",
+    "orden": "e77f2f0377e573592f2676ffb0773a6bf8b4381bb16fc373c5512fa81110a046"
+   },
+   {
+    "address": "0xb13CF163d916917d9cD6E836905cA5f12a1dEF4B",
+    "kind": "yearn-v3",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "symbol": "USDC",
+    "decimals": 6,
+    "name": "True Yield Dollar",
+    "llama_pool": "4aa0a5d8-860a-4ca2-af92-69c99c6d98f2",
+    "tvl_llama": 1295153,
+    "tvl_ydaemon": 1295153.060527482,
+    "apy_llama": 11.65288,
+    "legs": [
+     {
+      "strategy": "0xf115c134c23c7a05fbd489a8be3116ebf54b0d9f",
+      "counterpart": "0xef417a2512c5a41f69ae4e021648b69a7cde5d03"
+     },
+     {
+      "strategy": "0xd5428b889621eee8060fc105aa0ab0fa2e344468",
+      "counterpart": "0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca"
+     }
+    ],
+    "emparejamiento": "13 candidatos; TVL más cercano",
+    "orden": "b04de59faa9bb3c519c16bbc3cd4729ab008f2db0c04673b4ceb52558c0abb9d"
+   },
+   {
+    "address": "0xc3BD0A2193c8F027B82ddE3611D18589ef3f62a9",
+    "kind": "yearn-v3",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "symbol": "USDC",
+    "decimals": 6,
+    "name": "USDC Horizon yVault",
+    "llama_pool": "38f24550-a071-447c-8083-d376edaba156",
+    "tvl_llama": 730842,
+    "tvl_ydaemon": 730842.0975579959,
+    "apy_llama": 14.1533,
+    "legs": [
+     {
+      "strategy": "0xd5428b889621eee8060fc105aa0ab0fa2e344468",
+      "counterpart": "0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca"
+     },
+     {
+      "strategy": "0xf115c134c23c7a05fbd489a8be3116ebf54b0d9f",
+      "counterpart": "0xef417a2512c5a41f69ae4e021648b69a7cde5d03"
+     },
+     {
+      "strategy": "0xa40950d3f5b80d42aaa64f45004ccb0e45dc1887",
+      "counterpart": "0x0a1a3b5f2041f33522c4efc754a7d096f880ee16"
+     },
+     {
+      "strategy": "0x70fffbacb53ef74903ac074aae769414a70970d1",
+      "counterpart": "0xf42f5795d9ac7e9d757db633d693cd548cfd9169"
+     }
+    ],
+    "emparejamiento": "13 candidatos; TVL más cercano",
+    "orden": "9d2e3f6b88285b69ed6be7033bf3c654b6b15b02f60f46a0d974365963c5a7bd"
+   }
+  ],
+  "P-B|beefy|base": [
+   {
+    "address": "0xF1C55b6E063ee90A33FFE62deBe618962bae021e",
+    "id": "morpho-base-steakhouse-high-yield-usdc",
+    "strategy": "0xD90ec9e27c47FDF0f766c0D6fC4f0f47376dAA47",
+    "want": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6,
+    "assets": [
+     "USDC"
+    ],
+    "createdAt": 1769021077,
+    "llama_pool": "2f6ff86c-3d82-4cd9-8e7d-bc3eb3471493",
+    "tvl_llama": 1398838,
+    "tvl_beefy": 1398837.757596209,
+    "apy_llama": 4.72688,
+    "counterpart_kind": "erc4626",
+    "counterpart": {
+     "platform": "morpho",
+     "vault": "0xbeeff7ae5e00aae3db302e4b0d8c883810a58100"
+    },
+    "orden": "fb9c3cc34ca101f710cfef2868e6ebefda853ce47f9d875bf75608d394f140b7"
+   },
+   {
+    "address": "0x83152eE78d8f20Bba134A5FF000D551355Ce3996",
+    "id": "morpho-base-gauntlet-frontier-usdc",
+    "strategy": "0x1FdD1C2533B0bABab328eb4bCB3c94b19a3a5cEB",
+    "want": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6,
+    "assets": [
+     "USDC"
+    ],
+    "createdAt": 1769021077,
+    "llama_pool": "ba81ce35-1dfb-4a58-b74b-92d52166e19f",
+    "tvl_llama": 428608,
+    "tvl_beefy": 428608.2916679221,
+    "apy_llama": 4.96504,
+    "counterpart_kind": "erc4626",
+    "counterpart": {
+     "platform": "morpho",
+     "vault": "0x1deefabee758aabdc29a542b24ca3b75afd56765"
+    },
+    "orden": "206323d5dbebeab69ce46dc56fa78622dc5c135fd71c8b1d49e3c410a66ac82e"
+   }
+  ],
+  "P-B|beefy|arbitrum": [],
+  "P-C|convex|ethereum": [
+   {
+    "address": "0x744793B5110f6ca9cC7CDfe1CE16677c3Eb192ef",
+    "symbol": "DOLA-SUSDE",
+    "lp_token": "0x744793B5110f6ca9cC7CDfe1CE16677c3Eb192ef",
+    "gauge": "0x8f5e52be9b7bde850ba13e40284f63f14677058f",
+    "coins": [
+     "0x865377367054516e17014CcdED1e7d814EDC9ce4",
+     "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1731463919,
+    "llama_pool_convex": "85407c01-6f16-4cef-9ef2-1b2bf2556183",
+    "llama_pool_curve": "8a3a7995-73b3-4e25-8b5c-82a8841bf720",
+    "tvl_llama_convex": 43070748,
+    "tvl_llama_curve": 54732332,
+    "apy_llama_convex": 3.70893,
+    "apy_llama_curve": 3.39494,
+    "orden": "629b1bedd1a0d298ba95803b7c776f8b5c59d451dd334a581947b86ae8aa3774"
+   },
+   {
+    "address": "0x5dc1BF6f1e983C0b21EfB003c105133736fA0743",
+    "symbol": "FRAX-USDE",
+    "lp_token": "0x5dc1BF6f1e983C0b21EfB003c105133736fA0743",
+    "gauge": "0xb53c23d2cc6219adf78ea22bfd38bffc50ec54cb",
+    "coins": [
+     "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+     "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1702770299,
+    "llama_pool_convex": "5fac4a47-5360-49b7-8b61-66f88a3d939f",
+    "llama_pool_curve": "12ca9565-0369-404e-b209-631305e4012a",
+    "tvl_llama_convex": 33895433,
+    "tvl_llama_curve": 33976354,
+    "apy_llama_convex": 3.84086,
+    "apy_llama_curve": 2.54114,
+    "orden": "50ad7fd3abc541221b9b4acd77ded6105d3e4210f453a8ee0b98afd59ff98734"
+   },
+   {
+    "address": "0xD001aE433f254283FeCE51d4ACcE8c53263aa186",
+    "symbol": "USDC-RLUSD",
+    "lp_token": "0xD001aE433f254283FeCE51d4ACcE8c53263aa186",
+    "gauge": "0xfc3212bd9ad9a28da6b2bd50a2918969c126894f",
+    "coins": [
+     "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+     "0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
+    ],
+    "decimals": [
+     "6",
+     "18"
+    ],
+    "creationTs": 1734614699,
+    "llama_pool_convex": "d826a92b-2bd2-4fae-8483-db1ef8888aee",
+    "llama_pool_curve": "e91e23af-9099-45d9-8ba5-ea5b4638e453",
+    "tvl_llama_convex": 13756962,
+    "tvl_llama_curve": 39800502,
+    "apy_llama_convex": 4.22304,
+    "apy_llama_curve": 4.00648,
+    "orden": "ff1223491a5d25bf1ae8112a588a99a4b7be7ae2ff6a6732a474fcfcad9b2052"
+   },
+   {
+    "address": "0xF292eB6c5dcb693Eaaf392D0562a01C3710E5978",
+    "symbol": "SFRXUSD-FRXUSD",
+    "lp_token": "0xF292eB6c5dcb693Eaaf392D0562a01C3710E5978",
+    "gauge": "0x9a356132605ad599aba34651aa2a606730bacaaa",
+    "coins": [
+     "0xcf62F905562626CfcDD2261162a51fd02Fc9c5b6",
+     "0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1756198175,
+    "llama_pool_convex": "956bda67-d4b0-41bf-92da-ea01f4622dda",
+    "llama_pool_curve": "aa1fc20e-c4b6-4fa3-bcba-c9b8fd12cfe5",
+    "tvl_llama_convex": 11921627,
+    "tvl_llama_curve": 11921649,
+    "apy_llama_convex": 2.22376,
+    "apy_llama_curve": 3.52119,
+    "orden": "07d02b902defa520f78fa9b50dc4ffa2d61d1d5413ddbc69a3903740cffb508f"
+   },
+   {
+    "address": "0x13e12BB0E6A2f1A3d6901a59a9d585e89A6243e1",
+    "symbol": "FRXUSD-CRVUSD",
+    "lp_token": "0x13e12BB0E6A2f1A3d6901a59a9d585e89A6243e1",
+    "gauge": "0x22804b0f6be741a9fa1bbaecdd6c8d4116e96944",
+    "coins": [
+     "0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29",
+     "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1752006431,
+    "llama_pool_convex": "22a20de7-791a-48f2-8765-537db17b7f9e",
+    "llama_pool_curve": "cfa46afc-eb9c-4ff5-8e35-e6e1feaea974",
+    "tvl_llama_convex": 8630771,
+    "tvl_llama_curve": 12635202,
+    "apy_llama_convex": 4.69795,
+    "apy_llama_curve": 2.72673,
+    "orden": "e54d28d4cc9f9048184dad55fef20fd169e749e3f9ff13daf31516d16f0f711a"
+   },
+   {
+    "address": "0x5018BE882DccE5E3F2f3B0913AE2096B9b3fB61f",
+    "symbol": "USDC-FXUSD",
+    "lp_token": "0x5018BE882DccE5E3F2f3B0913AE2096B9b3fB61f",
+    "gauge": "0xd7f9111d529ed8859a0d5a1dc1ba7a021b61f22a",
+    "coins": [
+     "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+     "0x085780639CC2cACd35E474e71f4d000e2405d8f6"
+    ],
+    "decimals": [
+     "6",
+     "18"
+    ],
+    "creationTs": 1719632039,
+    "llama_pool_convex": "769acc2d-bbc7-4242-87fd-98fcc015f21e",
+    "llama_pool_curve": "bcc046f9-d980-40d9-80b2-5d5ae5931131",
+    "tvl_llama_convex": 8444684,
+    "tvl_llama_curve": 9033549,
+    "apy_llama_convex": 0.00018,
+    "apy_llama_curve": 10.34,
+    "orden": "5ab2d1fc2b491ceb4dffd220e4e7ef833900b3521f6649587fe8f3d4a6f85cb3"
+   },
+   {
+    "address": "0x81f17E97B1Cea46301fe6728D5619e9Db2e7FB2c",
+    "symbol": "USDT-CRVUSD",
+    "lp_token": "0x81f17E97B1Cea46301fe6728D5619e9Db2e7FB2c",
+    "gauge": null,
+    "coins": [
+     "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+     "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    ],
+    "decimals": [
+     "18",
+     "6"
+    ],
+    "creationTs": 1744729643,
+    "llama_pool_convex": "a3ffd3fe-b21c-44eb-94d5-22c80057a600",
+    "llama_pool_curve": "90a3e412-e3be-47e1-a233-fd3760f4a794",
+    "tvl_llama_convex": 7873248,
+    "tvl_llama_curve": 11505397,
+    "apy_llama_convex": 3.65396,
+    "apy_llama_curve": 2.85627,
+    "orden": "d88f977741583ad623de316d73f6e14a93a51ca81f6b9fd8d3e0d00fa29644b6"
+   },
+   {
+    "address": "0x8b83c4aA949254895507D09365229BC3a8c7f710",
+    "symbol": "DOLA-SUSDS",
+    "lp_token": "0x8b83c4aA949254895507D09365229BC3a8c7f710",
+    "gauge": "0x8b0abcfc78a5c14520682fcd76a0e52b71126079",
+    "coins": [
+     "0x865377367054516e17014CcdED1e7d814EDC9ce4",
+     "0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1731467279,
+    "llama_pool_convex": "51f9c038-feed-4666-8866-30efc92e0566",
+    "llama_pool_curve": "b36c0e1b-792f-4fee-8160-a0002c23e1d1",
+    "tvl_llama_convex": 5587970,
+    "tvl_llama_curve": 6456413,
+    "apy_llama_convex": 3.55263,
+    "apy_llama_curve": 3.06007,
+    "orden": "bb721f7cea10c0add5036046ef16fdf0fc723be1c4822ff532690d387ee8431b"
+   },
+   {
+    "address": "0xc522A6606BBA746d7960404F22a3DB936B6F4F50",
+    "symbol": "REUSD-SCRVUSD",
+    "lp_token": "0xc522A6606BBA746d7960404F22a3DB936B6F4F50",
+    "gauge": "0xaf01d68714e7ea67f43f08b5947e367126b889b1",
+    "coins": [
+     "0x57aB1E0003F623289CD798B1824Be09a793e4Bec",
+     "0x0655977FEb2f289A4aB78af67BAB0d17aAb84367"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1741832135,
+    "llama_pool_convex": "1971c939-46e4-4b86-87d9-78308de47af7",
+    "llama_pool_curve": "5c4940c7-c193-440d-b95e-9148d017e12c",
+    "tvl_llama_convex": 5108340,
+    "tvl_llama_curve": 7497764,
+    "apy_llama_convex": 4.54609,
+    "apy_llama_curve": 4.17293,
+    "orden": "a5e2ae1987e1359737a8a94e049667e224fa98057c186d8094508e9f3fbd127c"
+   },
+   {
+    "address": "0x48d670D189B4b48757992D36897bCa6E3f889040",
+    "symbol": "REUSD-SDOLA",
+    "lp_token": "0x48d670D189B4b48757992D36897bCa6E3f889040",
+    "gauge": "0xcb25249bfa8cdb6012a75070e5c2885151368bef",
+    "coins": [
+     "0x57aB1E0003F623289CD798B1824Be09a793e4Bec",
+     "0xb45ad160634c528Cc3D2926d9807104FA3157305"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1744335443,
+    "llama_pool_convex": "9cf047db-5b50-4546-b901-0f34fe5ef2f7",
+    "llama_pool_curve": "c69a5fa3-0948-428e-9a01-34057a08fde4",
+    "tvl_llama_convex": 3350666,
+    "tvl_llama_curve": 5471951,
+    "apy_llama_convex": 3.36643,
+    "apy_llama_curve": 4.32865,
+    "orden": "29afb05da78d40b2bbdc9e51092fc59557c6aa48b0e0011c3aa2ed159f83e7cb"
+   },
+   {
+    "address": "0x9A9e2e70919c75D80aAaA1D483c46CdBb8ac4d1b",
+    "symbol": "FRXUSD-MSUSD",
+    "lp_token": "0x9A9e2e70919c75D80aAaA1D483c46CdBb8ac4d1b",
+    "gauge": "0x6a253c9fe5aaff662e072aa694ce53b917adb278",
+    "coins": [
+     "0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29",
+     "0xab5eB14c09D416F0aC63661E57EDB7AEcDb9BEfA"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1760979143,
+    "llama_pool_convex": "ee024c35-c5c3-4a41-9018-75f72ec7ae4a",
+    "llama_pool_curve": "54a73b0a-d1f0-4a82-9e9f-2a6520351527",
+    "tvl_llama_convex": 2964650,
+    "tvl_llama_curve": 6114320,
+    "apy_llama_convex": 8.93291,
+    "apy_llama_curve": 5.69793,
+    "orden": "ff57ebaea125cba908781ac0628ed5e3e83522004f33e57e479c5ab1eefa9b26"
+   },
+   {
+    "address": "0x3C0965582dB7A0F660D491aA6174B9438f911c21",
+    "symbol": "EVAUSDT-EVAUSDC",
+    "lp_token": "0x3C0965582dB7A0F660D491aA6174B9438f911c21",
+    "gauge": "0xbe6228125448e40f5dcbb2dbdf7ff3f5721000b4",
+    "coins": [
+     "0x501eBf66d76A96D4FB26ccead42957653e16B8B8",
+     "0x741bD193B6b40f8703d2e116FD1965421f290F58"
+    ],
+    "decimals": [
+     "6",
+     "6"
+    ],
+    "creationTs": 1775625011,
+    "llama_pool_convex": "3f9ff90a-50aa-4af7-9a3f-4d45586425f5",
+    "llama_pool_curve": "9d2981a0-af33-4a5d-b43f-b191a36fdc3b",
+    "tvl_llama_convex": 2607819,
+    "tvl_llama_curve": 4066301,
+    "apy_llama_convex": 8.89996,
+    "apy_llama_curve": 5.14183,
+    "orden": "2a2ee862a1ddcaf927d219f0a982645693e6d7480c7734f6aefc6364c8030e6d"
+   },
+   {
+    "address": "0x17F9682c9cd1a448b31C0428F1D0783eD13a9Fa3",
+    "symbol": "ALUSD-FRXUSD",
+    "lp_token": "0x17F9682c9cd1a448b31C0428F1D0783eD13a9Fa3",
+    "gauge": "0xb069d59fddfe8e2e6e624951e306d4fdc056fa82",
+    "coins": [
+     "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+     "0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1768985351,
+    "llama_pool_convex": "398fc5e7-b9e3-45a2-b9bb-e65913bb02a6",
+    "llama_pool_curve": "0baca69f-f88b-4dc3-9410-02a77c96df69",
+    "tvl_llama_convex": 1896954,
+    "tvl_llama_curve": 2121486,
+    "apy_llama_convex": 6.00956,
+    "apy_llama_curve": 3.89202,
+    "orden": "da11c8109c49efab87c2ec12ae5cd2030914d22ab4dcf70bbce4dd972eaa4e75"
+   },
+   {
+    "address": "0xb0ef04ACE97d350E24Efa5139d2590D26a61A8Dc",
+    "symbol": "REUSD-FXUSD",
+    "lp_token": "0xb0ef04ACE97d350E24Efa5139d2590D26a61A8Dc",
+    "gauge": "0xf84657ca6db485ea38c63ca96dc396c2b3c6fdcc",
+    "coins": [
+     "0x57aB1E0003F623289CD798B1824Be09a793e4Bec",
+     "0x085780639CC2cACd35E474e71f4d000e2405d8f6"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1744336511,
+    "llama_pool_convex": "bd685d54-44b7-4b98-a2a8-4ecc22b59d66",
+    "llama_pool_curve": "18f29a9a-3550-457b-a39e-b80ce65000aa",
+    "tvl_llama_convex": 1888092,
+    "tvl_llama_curve": 1888147,
+    "apy_llama_convex": 1.73552,
+    "apy_llama_curve": 2.23159,
+    "orden": "68214a4d0d5ce0a280f9d8e26f982993cb9313f562db3bd429f719af0d87193c"
+   },
+   {
+    "address": "0x72310DAAed61321b02B08A547150c07522c6a976",
+    "symbol": "USDC-USDF",
+    "lp_token": "0x72310DAAed61321b02B08A547150c07522c6a976",
+    "gauge": "0x156527def9a2ab4f54c849575f23dc4bb439d9d9",
+    "coins": [
+     "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+     "0xFa2B947eEc368f42195f24F36d2aF29f7c24CeC2"
+    ],
+    "decimals": [
+     "6",
+     "18"
+    ],
+    "creationTs": 1741772555,
+    "llama_pool_convex": "977bc628-7476-43cf-abb8-68934bf56171",
+    "llama_pool_curve": "3388eabd-fc53-49bf-b358-d1a6dc3c6112",
+    "tvl_llama_convex": 1550616,
+    "tvl_llama_curve": 3173513,
+    "apy_llama_convex": 5.60376,
+    "apy_llama_curve": 2.81138,
+    "orden": "aef8c14ad2d4c07a9f14645b4bbeadde9c11730885a5b71fe487f33343d71629"
+   },
+   {
+    "address": "0xed785Af60bEd688baa8990cD5c4166221599A441",
+    "symbol": "REUSD-SFRXUSD",
+    "lp_token": "0xed785Af60bEd688baa8990cD5c4166221599A441",
+    "gauge": "0x5c0b03914f68f2717d779a0211fd98c2cc45a4dd",
+    "coins": [
+     "0x57aB1E0003F623289CD798B1824Be09a793e4Bec",
+     "0xcf62F905562626CfcDD2261162a51fd02Fc9c5b6"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1741832135,
+    "llama_pool_convex": "0a84dcf2-f71a-4863-bd2e-1952a043eb0c",
+    "llama_pool_curve": "3dde1458-2baa-4b83-a451-c81ac14c8dea",
+    "tvl_llama_convex": 1478476,
+    "tvl_llama_curve": 2472537,
+    "apy_llama_convex": 5.68264,
+    "apy_llama_curve": 4.02349,
+    "orden": "a979666af9e5d47750e6e724feee3669b5d5f44906c2b590b970f124b88d76a6"
+   },
+   {
+    "address": "0xEcb0F0d68C19BdAaDAEbE24f6752A4Db34e2c2cb",
+    "symbol": "PMUSD-CRVUSD",
+    "lp_token": "0xEcb0F0d68C19BdAaDAEbE24f6752A4Db34e2c2cb",
+    "gauge": "0xf3c43e7d722963b9569d1e39873df9e2dfe8c087",
+    "coins": [
+     "0xC0c17dD08263C16f6b64E772fB9B723Bf1344DdF",
+     "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1766088515,
+    "llama_pool_convex": "b395019b-ecc9-430d-be47-617f13fa3975",
+    "llama_pool_curve": "37fb91f9-866e-4fb1-9339-1311c04a8a00",
+    "tvl_llama_convex": 1375891,
+    "tvl_llama_curve": 2210477,
+    "apy_llama_convex": 11.4677,
+    "apy_llama_curve": 6.06194,
+    "orden": "0973031958b9815f9e62d96f5ef49cbfe192b2139002d80cbb48db2c7300589d"
+   },
+   {
+    "address": "0xBf5047039F2980C21eB5692c790BAd8A9533b900",
+    "symbol": "PMUSD-FRXUSD",
+    "lp_token": "0xBf5047039F2980C21eB5692c790BAd8A9533b900",
+    "gauge": "0x81d837437fd18736ffd3b5c9a5a2aa835c7637e7",
+    "coins": [
+     "0xC0c17dD08263C16f6b64E772fB9B723Bf1344DdF",
+     "0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1766089187,
+    "llama_pool_convex": "02ad75ab-b463-465f-a942-1c858ab4fd17",
+    "llama_pool_curve": "227d976d-035c-4be3-83a9-70a6135f9c18",
+    "tvl_llama_convex": 1250382,
+    "tvl_llama_curve": 2031972,
+    "apy_llama_convex": 11.30874,
+    "apy_llama_curve": 5.91094,
+    "orden": "84b1d0fb9cc5af996ac576bc50c0b13920365f1f61f23d537dd7cdfff244ecb3"
+   },
+   {
+    "address": "0xd29f8980852c2c76fC3f6E96a7Aa06E0BedCC1B1",
+    "symbol": "SCRVUSD-SUSDE",
+    "lp_token": "0xd29f8980852c2c76fC3f6E96a7Aa06E0BedCC1B1",
+    "gauge": "0x4fcd885b3070d5a44d22b2a4b443b67fa95e0d8f",
+    "coins": [
+     "0x0655977FEb2f289A4aB78af67BAB0d17aAb84367",
+     "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1731106415,
+    "llama_pool_convex": "18d68b7b-1674-4616-b5a8-65bbfb3723cd",
+    "llama_pool_curve": "0d6b4d03-fb91-4b6f-bd55-544e7aa71200",
+    "tvl_llama_convex": 1157117,
+    "tvl_llama_curve": 1830653,
+    "apy_llama_convex": 1.63642,
+    "apy_llama_curve": 6.14295,
+    "orden": "60a4cdcdfd436ca18118616a0ea23def7a0083b4a0ecd457e50b4fe661f1759f"
+   },
+   {
+    "address": "0x635EF0056A597D13863B73825CcA297236578595",
+    "symbol": "GHO-CRVUSD",
+    "lp_token": "0x635EF0056A597D13863B73825CcA297236578595",
+    "gauge": "0x4717c25df44e280ec5b31acbd8c194e1ed24efe2",
+    "coins": [
+     "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+     "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1709732591,
+    "llama_pool_convex": "b790a7e7-e493-4822-937f-94204b0cbfb5",
+    "llama_pool_curve": "fa087a6f-bc17-4752-9ac4-2b190503925f",
+    "tvl_llama_convex": 872692,
+    "tvl_llama_curve": 1320308,
+    "apy_llama_convex": 5.691,
+    "apy_llama_curve": 3.30583,
+    "orden": "461c3a24aa1cfdfa02c45d05e25617c37e5a0fb610b7f6df8901e29a0f5b0f71"
+   },
+   {
+    "address": "0x5B03CcCAb7BA3010fA5CAd23746cbf0794938e96",
+    "symbol": "USDT-USDE",
+    "lp_token": "0x5B03CcCAb7BA3010fA5CAd23746cbf0794938e96",
+    "gauge": "0x1c94126f29a9d6f9ef3ccb1d5d58ebcacc519f85",
+    "coins": [
+     "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+     "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3"
+    ],
+    "decimals": [
+     "6",
+     "18"
+    ],
+    "creationTs": 1739457767,
+    "llama_pool_convex": "3514b9aa-50fb-4534-b614-8336eb9f7e1e",
+    "llama_pool_curve": "79e1d4b1-2340-4506-a4a0-a23e05fcf2d2",
+    "tvl_llama_convex": 779127,
+    "tvl_llama_curve": 1137697,
+    "apy_llama_convex": 3.62163,
+    "apy_llama_curve": 2.5979,
+    "orden": "59d5b1b0c842681183d7a33e982287596b882e5f980ece33cfeaa8adad9af598"
+   },
+   {
+    "address": "0x460638e6F7605B866736e38045C0DE8294d7D87f",
+    "symbol": "SDOLA-ALUSD",
+    "lp_token": "0x460638e6F7605B866736e38045C0DE8294d7D87f",
+    "gauge": "0x19f9266f349158b54a6d95dce79297df670f7f14",
+    "coins": [
+     "0xb45ad160634c528Cc3D2926d9807104FA3157305",
+     "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1733886083,
+    "llama_pool_convex": "1fa89639-b77f-4876-bebc-21ba6f36aab1",
+    "llama_pool_curve": "0877b39a-c1a8-4155-b5dc-082600fdc26e",
+    "tvl_llama_convex": 701969,
+    "tvl_llama_curve": 836242,
+    "apy_llama_convex": 3.04161,
+    "apy_llama_curve": 2.81481,
+    "orden": "c4d390698ed5ee05bad36dd253589a896268c152b115cf3c0cb53a0fe82dc4a4"
+   },
+   {
+    "address": "0x625E92624Bc2D88619ACCc1788365A69767f6200",
+    "symbol": "PYUSD-CRVUSD",
+    "lp_token": "0x625E92624Bc2D88619ACCc1788365A69767f6200",
+    "gauge": "0xf69fb60b79e463384b40dbfdfb633ab5a863c9a2",
+    "coins": [
+     "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+     "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E"
+    ],
+    "decimals": [
+     "6",
+     "18"
+    ],
+    "creationTs": 1703109587,
+    "llama_pool_convex": "443f0162-635e-493c-bc2b-4985f8f790e3",
+    "llama_pool_curve": "93a073c9-0870-44a2-a5a6-d6091573be08",
+    "tvl_llama_convex": 643075,
+    "tvl_llama_curve": 3433739,
+    "apy_llama_convex": 4.47955,
+    "apy_llama_curve": 1.73965,
+    "orden": "b72c3876d9e70e852cc160d5a4ebf5f2d01ce410a46607f87df4b7981fd98621"
+   },
+   {
+    "address": "0x57064F49Ad7123C92560882a45518374ad982e85",
+    "symbol": "CRVUSD-SUSDE",
+    "lp_token": "0x57064F49Ad7123C92560882a45518374ad982e85",
+    "gauge": "0x76f236a0cc1c90425d8ab5f042970454311482ab",
+    "coins": [
+     "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+     "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1717249175,
+    "llama_pool_convex": "93833f3f-4033-422a-bcb3-2c00d37d594d",
+    "llama_pool_curve": "7e871eb8-f746-4af2-958d-1239bce4508e",
+    "tvl_llama_convex": 615664,
+    "tvl_llama_curve": 780143,
+    "apy_llama_convex": 2.43466,
+    "apy_llama_curve": 2.95072,
+    "orden": "e6cf5213424683aee7fe0cd542bd9d1044e7f7fe17c6e868f1cf0ba455a9b8b6"
+   },
+   {
+    "address": "0x47Ab5f9D8C9C7D002a92320f23a696D348C56A7F",
+    "symbol": "FRXUSD-SUSDE",
+    "lp_token": "0x47Ab5f9D8C9C7D002a92320f23a696D348C56A7F",
+    "gauge": "0xf9a743b2e7f073d3e7d3fe71ab2047dc79b7386b",
+    "coins": [
+     "0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29",
+     "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1779394679,
+    "llama_pool_convex": "6a1c44bd-de27-5e01-a038-9cec52d058b1",
+    "llama_pool_curve": "a101e808-c45a-4081-963c-de037c0077a0",
+    "tvl_llama_convex": 597676,
+    "tvl_llama_curve": 707342,
+    "apy_llama_convex": 1.50977,
+    "apy_llama_curve": 4.77223,
+    "orden": "8c159e33ab3d5313983def529b48bb02c30e1430972d9d70a0a23735fa0b0609"
+   },
+   {
+    "address": "0x516C3eCfe45F0820653E08DD7c93633d71B93Cb5",
+    "symbol": "CRVUSD-CVCRVUSD",
+    "lp_token": "0x516C3eCfe45F0820653E08DD7c93633d71B93Cb5",
+    "gauge": "0xf429aec167c92aca16cd77aef54f196b1988cba3",
+    "coins": [
+     "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+     "0xCeA18a8752bb7e7817F9AE7565328FE415C0f2cA"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1777155143,
+    "llama_pool_convex": "184e49b8-644a-434c-9628-089b6213c273",
+    "llama_pool_curve": "5ae68ccd-1f75-42a7-a2e6-23f80e98b874",
+    "tvl_llama_convex": 482654,
+    "tvl_llama_curve": 771121,
+    "apy_llama_convex": 10.17921,
+    "apy_llama_curve": 5.67411,
+    "orden": "baa8998f3540ed236156efea2d78f8c8b67802285021753a0998e2dbfc4fcd97"
+   },
+   {
+    "address": "0xaFEc61e7A604F8F81F7cab64eC75BFa07c542630",
+    "symbol": "FTUSD-USDC",
+    "lp_token": "0xaFEc61e7A604F8F81F7cab64eC75BFa07c542630",
+    "gauge": "0x8abf0a7e4b59ace59cb214fcb158285cd7cf7c3f",
+    "coins": [
+     "0xF7D85EC4E7710f71992752eac2111312e73E9C9C",
+     "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    ],
+    "decimals": [
+     "6",
+     "6"
+    ],
+    "creationTs": 1780921451,
+    "llama_pool_convex": "fff0794f-13b7-4535-8e13-dc84835c152c",
+    "llama_pool_curve": "f6df3c6a-c52c-414d-a82a-17e98eb90dcb",
+    "tvl_llama_convex": 303836,
+    "tvl_llama_curve": 334169,
+    "apy_llama_convex": 4.73395,
+    "apy_llama_curve": 3.92613,
+    "orden": "8b3265d18125aa89cc768ebfd4ae9e729c2a3b4ad9eceede00279a95b0f6b5a6"
+   },
+   {
+    "address": "0x68e392E7875CC23806a8bBC5b1A5D53a366C2C7E",
+    "symbol": "FRXUSD-SGHO",
+    "lp_token": "0x68e392E7875CC23806a8bBC5b1A5D53a366C2C7E",
+    "gauge": "0xb1bbc3c55e914b5bd2b0592629faa236d5c3bd6d",
+    "coins": [
+     "0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29",
+     "0xE1753F2e00940cC31213dd92013cF019DFE4ca1d"
+    ],
+    "decimals": [
+     "18",
+     "18"
+    ],
+    "creationTs": 1779394139,
+    "llama_pool_convex": "9b7d2a6b-6bbc-563b-aabf-a0cd43b9333d",
+    "llama_pool_curve": "e7464c49-c29a-443f-b449-a23d64c455e1",
+    "tvl_llama_convex": 299976,
+    "tvl_llama_curve": 340785,
+    "apy_llama_convex": 1.23725,
+    "apy_llama_curve": 4.20929,
+    "orden": "0ae14648f643fc8ac4d0cd8486f040d1b66d3865d72610ad8bc9c00e6de19d4d"
+   }
+  ],
+  "P-D|pendle|arbitrum": [
+   {
+    "address": "0xf86119a39f8654f38acbbd5488bd83f3f51983c8",
+    "name": "sUSDai",
+    "expiry": "2027-02-25T00:00:00.000Z",
+    "pt": "0xe9d07c2a3588b9a25edd55664be44ecfe5f92fce",
+    "sy": "0x30ccf4bbee313fcd19f3e295b3ba2920a24e2f62",
+    "underlying": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+    "llama_pool": "b44dc004-56b7-48d0-97b6-da33ead5e6eb",
+    "tvl_llama": 4497056,
+    "apy_llama": 9.0416,
+    "implied_api": 0.09041596373717153,
+    "orden": "7cb3374a52d15c0162b47c228db469930eb7e57667c0966af1a28a99b95deee7"
+   }
+  ]
+ },
+ "listas": {
+  "P-A|yearn|base": {
+   "elegibles": [
+    {
+     "direccion": "0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9",
+     "orden": "9d2e3f6b88285b69ed6be7033bf3c654b6b15b02f60f46a0d974365963c5a7bd",
+     "medible": true
+    },
+    {
+     "direccion": "0xb13cf163d916917d9cd6e836905ca5f12a1def4b",
+     "orden": "b04de59faa9bb3c519c16bbc3cd4729ab008f2db0c04673b4ceb52558c0abb9d",
+     "medible": true
+    },
+    {
+     "direccion": "0xf115c134c23c7a05fbd489a8be3116ebf54b0d9f",
+     "orden": "e77f2f0377e573592f2676ffb0773a6bf8b4381bb16fc373c5512fa81110a046",
+     "medible": false
+    }
+   ],
+   "medibles": [
+    {
+     "direccion": "0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9",
+     "orden": "9d2e3f6b88285b69ed6be7033bf3c654b6b15b02f60f46a0d974365963c5a7bd",
+     "medible": true
+    },
+    {
+     "direccion": "0xb13cf163d916917d9cd6e836905ca5f12a1def4b",
+     "orden": "b04de59faa9bb3c519c16bbc3cd4729ab008f2db0c04673b4ceb52558c0abb9d",
+     "medible": true
+    }
+   ],
+   "elegidos": [
+    "0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9",
+    "0xb13cf163d916917d9cd6e836905ca5f12a1def4b"
+   ],
+   "nota": null
+  },
+  "P-B|beefy|arbitrum": {
+   "elegibles": [],
+   "medibles": [],
+   "elegidos": [],
+   "nota": "grupo sin ningún candidato medible: sin par (no se rellena ni se baja M)"
+  },
+  "P-B|beefy|base": {
+   "elegibles": [
+    {
+     "direccion": "0x83152ee78d8f20bba134a5ff000d551355ce3996",
+     "orden": "206323d5dbebeab69ce46dc56fa78622dc5c135fd71c8b1d49e3c410a66ac82e",
+     "medible": true
+    },
+    {
+     "direccion": "0xf1c55b6e063ee90a33ffe62debe618962bae021e",
+     "orden": "fb9c3cc34ca101f710cfef2868e6ebefda853ce47f9d875bf75608d394f140b7",
+     "medible": true
+    }
+   ],
+   "medibles": [
+    {
+     "direccion": "0x83152ee78d8f20bba134a5ff000d551355ce3996",
+     "orden": "206323d5dbebeab69ce46dc56fa78622dc5c135fd71c8b1d49e3c410a66ac82e",
+     "medible": true
+    },
+    {
+     "direccion": "0xf1c55b6e063ee90a33ffe62debe618962bae021e",
+     "orden": "fb9c3cc34ca101f710cfef2868e6ebefda853ce47f9d875bf75608d394f140b7",
+     "medible": true
+    }
+   ],
+   "elegidos": [
+    "0x83152ee78d8f20bba134a5ff000d551355ce3996",
+    "0xf1c55b6e063ee90a33ffe62debe618962bae021e"
+   ],
+   "nota": null
+  },
+  "P-C|convex|ethereum": {
+   "elegibles": [
+    {
+     "direccion": "0xf292eb6c5dcb693eaaf392d0562a01c3710e5978",
+     "orden": "07d02b902defa520f78fa9b50dc4ffa2d61d1d5413ddbc69a3903740cffb508f",
+     "medible": false
+    },
+    {
+     "direccion": "0xecb0f0d68c19bdaadaebe24f6752a4db34e2c2cb",
+     "orden": "0973031958b9815f9e62d96f5ef49cbfe192b2139002d80cbb48db2c7300589d",
+     "medible": false
+    },
+    {
+     "direccion": "0x68e392e7875cc23806a8bbc5b1a5d53a366c2c7e",
+     "orden": "0ae14648f643fc8ac4d0cd8486f040d1b66d3865d72610ad8bc9c00e6de19d4d",
+     "medible": false
+    },
+    {
+     "direccion": "0x48d670d189b4b48757992d36897bca6e3f889040",
+     "orden": "29afb05da78d40b2bbdc9e51092fc59557c6aa48b0e0011c3aa2ed159f83e7cb",
+     "medible": false
+    },
+    {
+     "direccion": "0x3c0965582db7a0f660d491aa6174b9438f911c21",
+     "orden": "2a2ee862a1ddcaf927d219f0a982645693e6d7480c7734f6aefc6364c8030e6d",
+     "medible": false
+    },
+    {
+     "direccion": "0x635ef0056a597d13863b73825cca297236578595",
+     "orden": "461c3a24aa1cfdfa02c45d05e25617c37e5a0fb610b7f6df8901e29a0f5b0f71",
+     "medible": false
+    },
+    {
+     "direccion": "0x5dc1bf6f1e983c0b21efb003c105133736fa0743",
+     "orden": "50ad7fd3abc541221b9b4acd77ded6105d3e4210f453a8ee0b98afd59ff98734",
+     "medible": false
+    },
+    {
+     "direccion": "0x5b03cccab7ba3010fa5cad23746cbf0794938e96",
+     "orden": "59d5b1b0c842681183d7a33e982287596b882e5f980ece33cfeaa8adad9af598",
+     "medible": false
+    },
+    {
+     "direccion": "0x5018be882dcce5e3f2f3b0913ae2096b9b3fb61f",
+     "orden": "5ab2d1fc2b491ceb4dffd220e4e7ef833900b3521f6649587fe8f3d4a6f85cb3",
+     "medible": false
+    },
+    {
+     "direccion": "0xd29f8980852c2c76fc3f6e96a7aa06e0bedcc1b1",
+     "orden": "60a4cdcdfd436ca18118616a0ea23def7a0083b4a0ecd457e50b4fe661f1759f",
+     "medible": false
+    },
+    {
+     "direccion": "0x744793b5110f6ca9cc7cdfe1ce16677c3eb192ef",
+     "orden": "629b1bedd1a0d298ba95803b7c776f8b5c59d451dd334a581947b86ae8aa3774",
+     "medible": false
+    },
+    {
+     "direccion": "0xb0ef04ace97d350e24efa5139d2590d26a61a8dc",
+     "orden": "68214a4d0d5ce0a280f9d8e26f982993cb9313f562db3bd429f719af0d87193c",
+     "medible": false
+    },
+    {
+     "direccion": "0xbf5047039f2980c21eb5692c790bad8a9533b900",
+     "orden": "84b1d0fb9cc5af996ac576bc50c0b13920365f1f61f23d537dd7cdfff244ecb3",
+     "medible": false
+    },
+    {
+     "direccion": "0xafec61e7a604f8f81f7cab64ec75bfa07c542630",
+     "orden": "8b3265d18125aa89cc768ebfd4ae9e729c2a3b4ad9eceede00279a95b0f6b5a6",
+     "medible": false
+    },
+    {
+     "direccion": "0x47ab5f9d8c9c7d002a92320f23a696d348c56a7f",
+     "orden": "8c159e33ab3d5313983def529b48bb02c30e1430972d9d70a0a23735fa0b0609",
+     "medible": false
+    },
+    {
+     "direccion": "0xc522a6606bba746d7960404f22a3db936b6f4f50",
+     "orden": "a5e2ae1987e1359737a8a94e049667e224fa98057c186d8094508e9f3fbd127c",
+     "medible": true
+    },
+    {
+     "direccion": "0xed785af60bed688baa8990cd5c4166221599a441",
+     "orden": "a979666af9e5d47750e6e724feee3669b5d5f44906c2b590b970f124b88d76a6",
+     "medible": false
+    },
+    {
+     "direccion": "0x72310daaed61321b02b08a547150c07522c6a976",
+     "orden": "aef8c14ad2d4c07a9f14645b4bbeadde9c11730885a5b71fe487f33343d71629",
+     "medible": false
+    },
+    {
+     "direccion": "0x625e92624bc2d88619accc1788365a69767f6200",
+     "orden": "b72c3876d9e70e852cc160d5a4ebf5f2d01ce410a46607f87df4b7981fd98621",
+     "medible": false
+    },
+    {
+     "direccion": "0x516c3ecfe45f0820653e08dd7c93633d71b93cb5",
+     "orden": "baa8998f3540ed236156efea2d78f8c8b67802285021753a0998e2dbfc4fcd97",
+     "medible": false
+    },
+    {
+     "direccion": "0x8b83c4aa949254895507d09365229bc3a8c7f710",
+     "orden": "bb721f7cea10c0add5036046ef16fdf0fc723be1c4822ff532690d387ee8431b",
+     "medible": false
+    },
+    {
+     "direccion": "0x460638e6f7605b866736e38045c0de8294d7d87f",
+     "orden": "c4d390698ed5ee05bad36dd253589a896268c152b115cf3c0cb53a0fe82dc4a4",
+     "medible": true
+    },
+    {
+     "direccion": "0x81f17e97b1cea46301fe6728d5619e9db2e7fb2c",
+     "orden": "d88f977741583ad623de316d73f6e14a93a51ca81f6b9fd8d3e0d00fa29644b6",
+     "medible": false
+    },
+    {
+     "direccion": "0x17f9682c9cd1a448b31c0428f1d0783ed13a9fa3",
+     "orden": "da11c8109c49efab87c2ec12ae5cd2030914d22ab4dcf70bbce4dd972eaa4e75",
+     "medible": false
+    },
+    {
+     "direccion": "0x13e12bb0e6a2f1a3d6901a59a9d585e89a6243e1",
+     "orden": "e54d28d4cc9f9048184dad55fef20fd169e749e3f9ff13daf31516d16f0f711a",
+     "medible": false
+    },
+    {
+     "direccion": "0x57064f49ad7123c92560882a45518374ad982e85",
+     "orden": "e6cf5213424683aee7fe0cd542bd9d1044e7f7fe17c6e868f1cf0ba455a9b8b6",
+     "medible": false
+    },
+    {
+     "direccion": "0xd001ae433f254283fece51d4acce8c53263aa186",
+     "orden": "ff1223491a5d25bf1ae8112a588a99a4b7be7ae2ff6a6732a474fcfcad9b2052",
+     "medible": false
+    },
+    {
+     "direccion": "0x9a9e2e70919c75d80aaaa1d483c46cdbb8ac4d1b",
+     "orden": "ff57ebaea125cba908781ac0628ed5e3e83522004f33e57e479c5ab1eefa9b26",
+     "medible": false
+    }
+   ],
+   "medibles": [
+    {
+     "direccion": "0xc522a6606bba746d7960404f22a3db936b6f4f50",
+     "orden": "a5e2ae1987e1359737a8a94e049667e224fa98057c186d8094508e9f3fbd127c",
+     "medible": true
+    },
+    {
+     "direccion": "0x460638e6f7605b866736e38045c0de8294d7d87f",
+     "orden": "c4d390698ed5ee05bad36dd253589a896268c152b115cf3c0cb53a0fe82dc4a4",
+     "medible": true
+    }
+   ],
+   "elegidos": [
+    "0xc522a6606bba746d7960404f22a3db936b6f4f50"
+   ],
+   "nota": null
+  },
+  "P-D|pendle|arbitrum": {
+   "elegibles": [
+    {
+     "direccion": "0xf86119a39f8654f38acbbd5488bd83f3f51983c8",
+     "orden": "7cb3374a52d15c0162b47c228db469930eb7e57667c0966af1a28a99b95deee7",
+     "medible": true
+    }
+   ],
+   "medibles": [
+    {
+     "direccion": "0xf86119a39f8654f38acbbd5488bd83f3f51983c8",
+     "orden": "7cb3374a52d15c0162b47c228db469930eb7e57667c0966af1a28a99b95deee7",
+     "medible": true
+    }
+   ],
+   "elegidos": [
+    "0xf86119a39f8654f38acbbd5488bd83f3f51983c8"
+   ],
+   "nota": null
+  },
+  "control|aave-v3|arbitrum": {
+   "elegibles": [
+    {
+     "direccion": "0x724dc807b04555b71ed48a6896b6f41593b8c637",
+     "orden": "146bdb3bfa3763eec280ea579cfe3963f4ba84afdc71bb8de4c8c0559224e9e0",
+     "medible": true
+    },
+    {
+     "direccion": "0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee",
+     "orden": "4fb371d23ec51d7e9db2094a9dcf2fa7688acf7c44f685b5cd0cdf8f64e2200f",
+     "medible": true
+    }
+   ],
+   "medibles": [
+    {
+     "direccion": "0x724dc807b04555b71ed48a6896b6f41593b8c637",
+     "orden": "146bdb3bfa3763eec280ea579cfe3963f4ba84afdc71bb8de4c8c0559224e9e0",
+     "medible": true
+    },
+    {
+     "direccion": "0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee",
+     "orden": "4fb371d23ec51d7e9db2094a9dcf2fa7688acf7c44f685b5cd0cdf8f64e2200f",
+     "medible": true
+    }
+   ],
+   "elegidos": [
+    "0x724dc807b04555b71ed48a6896b6f41593b8c637",
+    "0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee"
+   ],
+   "nota": null
+  },
+  "control|aave-v3|base": {
+   "elegibles": [
+    {
+     "direccion": "0x4e65fe4dba92790696d040ac24aa414708f5c0ab",
+     "orden": "383485cd72e8741d79af7289938c257f4e68e1750bd0fee2738bc20942df1363",
+     "medible": true
+    }
+   ],
+   "medibles": [
+    {
+     "direccion": "0x4e65fe4dba92790696d040ac24aa414708f5c0ab",
+     "orden": "383485cd72e8741d79af7289938c257f4e68e1750bd0fee2738bc20942df1363",
+     "medible": true
+    }
+   ],
+   "elegidos": [
+    "0x4e65fe4dba92790696d040ac24aa414708f5c0ab"
+   ],
+   "nota": null
+  }
+ },
+ "censo_sha256": "54e388a46839b5071a791bdb00797f2c4b2a55891749306e111b6f07b6e4daf4",
+ "tardios": [],
+ "sin_par": {
+  "0x81f17e97b1cea46301fe6728d5619e9db2e7fb2c": "no se pudo construir el par: AttributeError: 'NoneType' object has no attribute 'lower'"
+ },
+ "seleccion": {
+  "P-A|yearn|base": [
+   "0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9",
+   "0xb13cf163d916917d9cd6e836905ca5f12a1def4b"
+  ],
+  "P-B|beefy|arbitrum": [],
+  "P-B|beefy|base": [
+   "0x83152ee78d8f20bba134a5ff000d551355ce3996",
+   "0xf1c55b6e063ee90a33ffe62debe618962bae021e"
+  ],
+  "P-C|convex|ethereum": [
+   "0xc522a6606bba746d7960404f22a3db936b6f4f50"
+  ],
+  "P-D|pendle|arbitrum": [
+   "0xf86119a39f8654f38acbbd5488bd83f3f51983c8"
+  ],
+  "control|aave-v3|arbitrum": [
+   "0x724dc807b04555b71ed48a6896b6f41593b8c637",
+   "0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee"
+  ],
+  "control|aave-v3|base": [
+   "0x4e65fe4dba92790696d040ac24aa414708f5c0ab"
+  ]
+ },
+ "pares": [
+  {
+   "id": "P-A|base|0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9",
+   "role": "P-A",
+   "chain": "base",
+   "delegated": "yearn-v3|base|0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9",
+   "delegated_kind": "yearn-v3",
+   "direct": [
+    {
+     "market": "erc4626|base|0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca",
+     "leg": 0,
+     "strategy": "0xd5428b889621eee8060fc105aa0ab0fa2e344468"
+    },
+    {
+     "market": "erc4626|base|0xef417a2512c5a41f69ae4e021648b69a7cde5d03",
+     "leg": 1,
+     "strategy": "0xf115c134c23c7a05fbd489a8be3116ebf54b0d9f"
+    },
+    {
+     "market": "erc4626|base|0x0a1a3b5f2041f33522c4efc754a7d096f880ee16",
+     "leg": 2,
+     "strategy": "0xa40950d3f5b80d42aaa64f45004ccb0e45dc1887"
+    },
+    {
+     "market": "erc4626|base|0xf42f5795d9ac7e9d757db633d693cd548cfd9169",
+     "leg": 3,
+     "strategy": "0x70fffbacb53ef74903ac074aae769414a70970d1"
+    }
+   ],
+   "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+  },
+  {
+   "id": "P-A|base|0xb13cf163d916917d9cd6e836905ca5f12a1def4b",
+   "role": "P-A",
+   "chain": "base",
+   "delegated": "yearn-v3|base|0xb13cf163d916917d9cd6e836905ca5f12a1def4b",
+   "delegated_kind": "yearn-v3",
+   "direct": [
+    {
+     "market": "erc4626|base|0xef417a2512c5a41f69ae4e021648b69a7cde5d03",
+     "leg": 0,
+     "strategy": "0xf115c134c23c7a05fbd489a8be3116ebf54b0d9f"
+    },
+    {
+     "market": "erc4626|base|0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca",
+     "leg": 1,
+     "strategy": "0xd5428b889621eee8060fc105aa0ab0fa2e344468"
+    }
+   ],
+   "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+  },
+  {
+   "id": "P-B|base|0x83152ee78d8f20bba134a5ff000d551355ce3996",
+   "role": "P-B",
+   "chain": "base",
+   "delegated": "beefy|base|0x83152ee78d8f20bba134a5ff000d551355ce3996",
+   "delegated_kind": "beefy",
+   "direct": [
+    {
+     "market": "erc4626|base|0x1deefabee758aabdc29a542b24ca3b75afd56765"
+    }
+   ],
+   "asset": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+  },
+  {
+   "id": "P-B|base|0xf1c55b6e063ee90a33ffe62debe618962bae021e",
+   "role": "P-B",
+   "chain": "base",
+   "delegated": "beefy|base|0xf1c55b6e063ee90a33ffe62debe618962bae021e",
+   "delegated_kind": "beefy",
+   "direct": [
+    {
+     "market": "erc4626|base|0xbeeff7ae5e00aae3db302e4b0d8c883810a58100"
+    }
+   ],
+   "asset": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+  },
+  {
+   "id": "P-C|ethereum|0xc522a6606bba746d7960404f22a3db936b6f4f50",
+   "role": "P-C",
+   "chain": "ethereum",
+   "delegated": "convex-curve|ethereum|0xc522a6606bba746d7960404f22a3db936b6f4f50",
+   "delegated_kind": "convex",
+   "direct": [
+    {
+     "market": "convex-curve|ethereum|0xc522a6606bba746d7960404f22a3db936b6f4f50",
+     "use": "curve-gauge"
+    }
+   ],
+   "asset": "0x57aB1E0003F623289CD798B1824Be09a793e4Bec"
+  },
+  {
+   "id": "P-D|arbitrum|0xf86119a39f8654f38acbbd5488bd83f3f51983c8",
+   "role": "P-D",
+   "chain": "arbitrum",
+   "delegated": "pendle-pt|arbitrum|0xf86119a39f8654f38acbbd5488bd83f3f51983c8",
+   "delegated_kind": "pendle-pt",
+   "direct": [
+    {
+     "market": "erc4626|arbitrum|0x0b2b2b2076d95dda7817e785989fe353fe955ef9"
+    }
+   ],
+   "asset": "0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef"
+  },
+  {
+   "id": "control|arbitrum|0x724dc807b04555b71ed48a6896b6f41593b8c637",
+   "role": "control",
+   "chain": "arbitrum",
+   "control": "aave-v3|arbitrum|0x724dc807b04555b71ed48a6896b6f41593b8c637"
+  },
+  {
+   "id": "control|arbitrum|0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee",
+   "role": "control",
+   "chain": "arbitrum",
+   "control": "aave-v3|arbitrum|0x82e64f49ed5ec1bc6e43dad4fc8af9bb3a2312ee"
+  },
+  {
+   "id": "control|base|0x4e65fe4dba92790696d040ac24aa414708f5c0ab",
+   "role": "control",
+   "chain": "base",
+   "control": "aave-v3|base|0x4e65fe4dba92790696d040ac24aa414708f5c0ab"
+  }
+ ],
+ "log": [
+  "aave base EURC: fuera por F6 (no anclado al dólar: EURC=['peggedEUR'])",
+  "convex USDC-EURS: fuera por F6 (no anclado al dólar: EURS=['peggedEUR'])",
+  "convex CRVUSD-ZCHF: fuera por F6 (no anclado al dólar: ZCHF=['peggedCHF'])",
+  "curve USDC-EURS: fuera por F6 (no anclado al dólar: EURS=['peggedEUR'])",
+  "curve EURS-SEUR: fuera por F6 (no anclado al dólar: EURS=['peggedEUR'], SEUR=['peggedEUR'])",
+  "curve CRVUSD-ZCHF: fuera por F6 (no anclado al dólar: ZCHF=['peggedCHF'])",
+  "curve EURE-USDC: fuera por F6 (no anclado al dólar: EURE=['peggedEUR'])",
+  "P-C CRVUSD: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-C CRVUSD: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-C USDC-CRVUSD: emparejamiento no único (llama curve=1, api curve=2); excluido",
+  "P-C CRVUSD: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-C PYUSD-USDC: emparejamiento no único (llama curve=1, api curve=4); excluido",
+  "P-C CRVUSD: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-C CRVUSD: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-C FRXUSD-DUSD: emparejamiento no único (llama curve=1, api curve=2); excluido",
+  "P-C CRVUSD: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-C CRVUSD: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-C CRVUSD: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-C FRXUSD-SUSDS: emparejamiento no único (llama curve=1, api curve=2); excluido",
+  "P-C DAI-USDC-USDT: emparejamiento no único (llama curve=1, api curve=0); excluido",
+  "P-C USDC-USDT: emparejamiento no único (llama curve=1, api curve=87); excluido",
+  "P-C MSUSD-FRAXBP: emparejamiento no único (llama curve=1, api curve=0); excluido",
+  "P-C FRAX-USDC: emparejamiento no único (llama curve=1, api curve=0); excluido",
+  "P-C CRVUSD: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-C MUSD-3CRV: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-C CRVUSD: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-C CRVUSD: emparejamiento no único (llama curve=0, api curve=0); excluido",
+  "P-D USDai 2027-02-25: no está en DefiLlama como estable en dólares con TVL >= 250000",
+  "P-D USDai 2027-06-24: no está en DefiLlama como estable en dólares con TVL >= 250000",
+  "P-D sUSDai 2027-06-24: no está en DefiLlama como estable en dólares con TVL >= 250000"
+ ],
+ "generado": "2026-11-11T01:14:33Z"
+}

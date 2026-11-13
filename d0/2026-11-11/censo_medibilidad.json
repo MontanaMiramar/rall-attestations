@@ -1,0 +1,5501 @@
+{
+ "M": 10,
+ "censo": {
+  "P-A|base|0xb13cf163d916917d9cd6e836905ca5f12a1def4b": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|approve|0x833589fcd6edb6e08f4c7c32d4f71b54bda02913|0x833589fcd6edb6e08f4c7c32d4f71b54bda02913|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791764277,
+       "hasta_ts": 1794345027,
+       "n_hermanos": 0,
+       "n_propias": 2227
+      }
+     ],
+     "lado": "ambos"
+    },
+    "erc4626_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|erc4626_deposit|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791771009,
+       "hasta_ts": 1794343234,
+       "n_hermanos": 0,
+       "n_propias": 548
+      },
+      {
+       "clave": "base|erc4626_deposit|0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca|0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766223,
+       "hasta_ts": 1794334213,
+       "n_hermanos": 0,
+       "n_propias": 1236
+      }
+     ],
+     "lado": "directo"
+    },
+    "erc4626_redeem": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|erc4626_redeem|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791769215,
+       "hasta_ts": 1794322206,
+       "n_hermanos": 0,
+       "n_propias": 223
+      },
+      {
+       "clave": "base|erc4626_redeem|0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca|0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791765639,
+       "hasta_ts": 1794248408,
+       "n_hermanos": 0,
+       "n_propias": 760
+      }
+     ],
+     "lado": "directo"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763367,
+       "hasta_ts": 1794344766,
+       "n_hermanos": 0,
+       "n_propias": 2985
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|swap|0xcdac0d6c6c59727a65f871236188350531885c43|0xcf77a3ba9a5ca399b7c97c74d54e5b1beb874e43|Swap(address,address,uint256,uint256,uint256,uint256)|[\"0x000000000000000000000000cf77a3ba9a5ca399b7c97c74d54e5b1beb874e43\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763633,
+       "hasta_ts": 1794258287,
+       "n_hermanos": 0,
+       "n_propias": 385
+      }
+     ],
+     "lado": "ambos"
+    },
+    "yearn_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|yearn_deposit|0xb13cf163d916917d9cd6e836905ca5f12a1def4b|0xb13cf163d916917d9cd6e836905ca5f12a1def4b|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791769867,
+       "hasta_ts": 1793988832,
+       "n_hermanos": 0,
+       "n_propias": 149
+      }
+     ],
+     "lado": "delegado"
+    },
+    "yearn_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|yearn_withdraw|0xb13cf163d916917d9cd6e836905ca5f12a1def4b|0xb13cf163d916917d9cd6e836905ca5f12a1def4b|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791933537,
+       "hasta_ts": 1793844407,
+       "n_hermanos": 0,
+       "n_propias": 70
+      }
+     ],
+     "lado": "delegado"
+    }
+   },
+   "causas": [],
+   "dos_pasos": [],
+   "medible": true,
+   "par": "P-A|base|0xb13cf163d916917d9cd6e836905ca5f12a1def4b"
+  },
+  "P-A|base|0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|approve|0x833589fcd6edb6e08f4c7c32d4f71b54bda02913|0x833589fcd6edb6e08f4c7c32d4f71b54bda02913|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791764277,
+       "hasta_ts": 1794345027,
+       "n_hermanos": 0,
+       "n_propias": 2227
+      }
+     ],
+     "lado": "ambos"
+    },
+    "erc4626_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|erc4626_deposit|0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca|0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766223,
+       "hasta_ts": 1794334213,
+       "n_hermanos": 0,
+       "n_propias": 1236
+      },
+      {
+       "clave": "base|erc4626_deposit|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791771009,
+       "hasta_ts": 1794343234,
+       "n_hermanos": 0,
+       "n_propias": 548
+      },
+      {
+       "clave": "base|erc4626_deposit|0x0a1a3b5f2041f33522c4efc754a7d096f880ee16|0x0a1a3b5f2041f33522c4efc754a7d096f880ee16|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791775633,
+       "hasta_ts": 1794290297,
+       "n_hermanos": 0,
+       "n_propias": 270
+      },
+      {
+       "clave": "base|erc4626_deposit|0xf42f5795d9ac7e9d757db633d693cd548cfd9169|0xf42f5795d9ac7e9d757db633d693cd548cfd9169|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791767135,
+       "hasta_ts": 1794343380,
+       "n_hermanos": 0,
+       "n_propias": 1236
+      }
+     ],
+     "lado": "directo"
+    },
+    "erc4626_redeem": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|erc4626_redeem|0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca|0xc1256ae5ff1cf2719d4937adb3bbccab2e00a2ca|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791765639,
+       "hasta_ts": 1794248408,
+       "n_hermanos": 0,
+       "n_propias": 760
+      },
+      {
+       "clave": "base|erc4626_redeem|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791769215,
+       "hasta_ts": 1794322206,
+       "n_hermanos": 0,
+       "n_propias": 223
+      },
+      {
+       "clave": "base|erc4626_redeem|0x0a1a3b5f2041f33522c4efc754a7d096f880ee16|0x0a1a3b5f2041f33522c4efc754a7d096f880ee16|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791785395,
+       "hasta_ts": 1794334173,
+       "n_hermanos": 0,
+       "n_propias": 304
+      },
+      {
+       "clave": "base|erc4626_redeem|0xf42f5795d9ac7e9d757db633d693cd548cfd9169|0xf42f5795d9ac7e9d757db633d693cd548cfd9169|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791764081,
+       "hasta_ts": 1794334939,
+       "n_hermanos": 0,
+       "n_propias": 1303
+      }
+     ],
+     "lado": "directo"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763367,
+       "hasta_ts": 1794344766,
+       "n_hermanos": 0,
+       "n_propias": 2985
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|swap|0xcdac0d6c6c59727a65f871236188350531885c43|0xcf77a3ba9a5ca399b7c97c74d54e5b1beb874e43|Swap(address,address,uint256,uint256,uint256,uint256)|[\"0x000000000000000000000000cf77a3ba9a5ca399b7c97c74d54e5b1beb874e43\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763633,
+       "hasta_ts": 1794258287,
+       "n_hermanos": 0,
+       "n_propias": 385
+      }
+     ],
+     "lado": "ambos"
+    },
+    "yearn_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|yearn_deposit|0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9|0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766227,
+       "hasta_ts": 1793580963,
+       "n_hermanos": 0,
+       "n_propias": 37
+      }
+     ],
+     "lado": "delegado"
+    },
+    "yearn_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|yearn_withdraw|0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9|0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (70 tx)",
+       "desde_ts": 1791933537,
+       "hasta_ts": 1793844407,
+       "n_hermanos": 70,
+       "n_propias": 2
+      }
+     ],
+     "lado": "delegado"
+    }
+   },
+   "causas": [],
+   "dos_pasos": [],
+   "medible": true,
+   "par": "P-A|base|0xc3bd0a2193c8f027b82dde3611d18589ef3f62a9"
+  },
+  "P-A|base|0xf115c134c23c7a05fbd489a8be3116ebf54b0d9f": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|approve|0x833589fcd6edb6e08f4c7c32d4f71b54bda02913|0x833589fcd6edb6e08f4c7c32d4f71b54bda02913|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791764277,
+       "hasta_ts": 1794345027,
+       "n_hermanos": 0,
+       "n_propias": 2227
+      }
+     ],
+     "lado": "ambos"
+    },
+    "erc4626_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|erc4626_deposit|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791771009,
+       "hasta_ts": 1794343234,
+       "n_hermanos": 0,
+       "n_propias": 548
+      }
+     ],
+     "lado": "directo"
+    },
+    "erc4626_redeem": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|erc4626_redeem|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|0xef417a2512c5a41f69ae4e021648b69a7cde5d03|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791769215,
+       "hasta_ts": 1794322206,
+       "n_hermanos": 0,
+       "n_propias": 223
+      }
+     ],
+     "lado": "directo"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763367,
+       "hasta_ts": 1794344766,
+       "n_hermanos": 0,
+       "n_propias": 2985
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|swap|0xcdac0d6c6c59727a65f871236188350531885c43|0xcf77a3ba9a5ca399b7c97c74d54e5b1beb874e43|Swap(address,address,uint256,uint256,uint256,uint256)|[\"0x000000000000000000000000cf77a3ba9a5ca399b7c97c74d54e5b1beb874e43\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763633,
+       "hasta_ts": 1794258287,
+       "n_hermanos": 0,
+       "n_propias": 385
+      }
+     ],
+     "lado": "ambos"
+    },
+    "yearn_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "base|yearn_deposit|0xf115c134c23c7a05fbd489a8be3116ebf54b0d9f|0xf115c134c23c7a05fbd489a8be3116ebf54b0d9f|Deposit(address,address,uint256,uint256)",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "yearn_withdraw": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "base|yearn_withdraw|0xf115c134c23c7a05fbd489a8be3116ebf54b0d9f|0xf115c134c23c7a05fbd489a8be3116ebf54b0d9f|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    }
+   },
+   "causas": [
+    "yearn_deposit: base|yearn_deposit|0xf115c134c23c7a05fbd489a8be3 propias 0, hermanos 0 (< 10)",
+    "yearn_withdraw: base|yearn_withdraw|0xf115c134c23c7a05fbd489a8be propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-A|base|0xf115c134c23c7a05fbd489a8be3116ebf54b0d9f"
+  },
+  "P-B|base|0x83152ee78d8f20bba134a5ff000d551355ce3996": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|approve|0x833589fcd6edb6e08f4c7c32d4f71b54bda02913|0x833589fcd6edb6e08f4c7c32d4f71b54bda02913|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791764277,
+       "hasta_ts": 1794345027,
+       "n_hermanos": 0,
+       "n_propias": 2227
+      }
+     ],
+     "lado": "ambos"
+    },
+    "beefy_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|beefy_deposit|0x83152ee78d8f20bba134a5ff000d551355ce3996|0x83152ee78d8f20bba134a5ff000d551355ce3996|Transfer(address,address,uint256)|[\"0x0000000000000000000000000000000000000000000000000000000000000000\"]",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (12 tx)",
+       "desde_ts": 1791899223,
+       "hasta_ts": 1793833001,
+       "n_hermanos": 12,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "beefy_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|beefy_withdraw|0x83152ee78d8f20bba134a5ff000d551355ce3996|0x83152ee78d8f20bba134a5ff000d551355ce3996|Transfer(address,address,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000000\"]",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (90 tx)",
+       "desde_ts": 1791849997,
+       "hasta_ts": 1793803077,
+       "n_hermanos": 90,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "erc4626_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|erc4626_deposit|0x1deefabee758aabdc29a542b24ca3b75afd56765|0x1deefabee758aabdc29a542b24ca3b75afd56765|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791796327,
+       "hasta_ts": 1794313104,
+       "n_hermanos": 0,
+       "n_propias": 137
+      }
+     ],
+     "lado": "directo"
+    },
+    "erc4626_redeem": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|erc4626_redeem|0x1deefabee758aabdc29a542b24ca3b75afd56765|0x1deefabee758aabdc29a542b24ca3b75afd56765|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791786683,
+       "hasta_ts": 1794322615,
+       "n_hermanos": 0,
+       "n_propias": 219
+      }
+     ],
+     "lado": "directo"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763367,
+       "hasta_ts": 1794344766,
+       "n_hermanos": 0,
+       "n_propias": 2985
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|swap|0xcdac0d6c6c59727a65f871236188350531885c43|0xcf77a3ba9a5ca399b7c97c74d54e5b1beb874e43|Swap(address,address,uint256,uint256,uint256,uint256)|[\"0x000000000000000000000000cf77a3ba9a5ca399b7c97c74d54e5b1beb874e43\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763633,
+       "hasta_ts": 1794258287,
+       "n_hermanos": 0,
+       "n_propias": 385
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [],
+   "dos_pasos": [],
+   "medible": true,
+   "par": "P-B|base|0x83152ee78d8f20bba134a5ff000d551355ce3996"
+  },
+  "P-B|base|0xf1c55b6e063ee90a33ffe62debe618962bae021e": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|approve|0x833589fcd6edb6e08f4c7c32d4f71b54bda02913|0x833589fcd6edb6e08f4c7c32d4f71b54bda02913|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791764277,
+       "hasta_ts": 1794345027,
+       "n_hermanos": 0,
+       "n_propias": 2227
+      }
+     ],
+     "lado": "ambos"
+    },
+    "beefy_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|beefy_deposit|0xf1c55b6e063ee90a33ffe62debe618962bae021e|0xf1c55b6e063ee90a33ffe62debe618962bae021e|Transfer(address,address,uint256)|[\"0x0000000000000000000000000000000000000000000000000000000000000000\"]",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (12 tx)",
+       "desde_ts": 1791899223,
+       "hasta_ts": 1793833001,
+       "n_hermanos": 12,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "beefy_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|beefy_withdraw|0xf1c55b6e063ee90a33ffe62debe618962bae021e|0xf1c55b6e063ee90a33ffe62debe618962bae021e|Transfer(address,address,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000000\"]",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (89 tx)",
+       "desde_ts": 1791849997,
+       "hasta_ts": 1793803077,
+       "n_hermanos": 89,
+       "n_propias": 3
+      }
+     ],
+     "lado": "delegado"
+    },
+    "erc4626_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|erc4626_deposit|0xbeeff7ae5e00aae3db302e4b0d8c883810a58100|0xbeeff7ae5e00aae3db302e4b0d8c883810a58100|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791786273,
+       "hasta_ts": 1794313340,
+       "n_hermanos": 0,
+       "n_propias": 235
+      }
+     ],
+     "lado": "directo"
+    },
+    "erc4626_redeem": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|erc4626_redeem|0xbeeff7ae5e00aae3db302e4b0d8c883810a58100|0xbeeff7ae5e00aae3db302e4b0d8c883810a58100|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791777635,
+       "hasta_ts": 1794335169,
+       "n_hermanos": 0,
+       "n_propias": 320
+      }
+     ],
+     "lado": "directo"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763367,
+       "hasta_ts": 1794344766,
+       "n_hermanos": 0,
+       "n_propias": 2985
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "base|swap|0xcdac0d6c6c59727a65f871236188350531885c43|0xcf77a3ba9a5ca399b7c97c74d54e5b1beb874e43|Swap(address,address,uint256,uint256,uint256,uint256)|[\"0x000000000000000000000000cf77a3ba9a5ca399b7c97c74d54e5b1beb874e43\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763633,
+       "hasta_ts": 1794258287,
+       "n_hermanos": 0,
+       "n_propias": 385
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [],
+   "dos_pasos": [],
+   "medible": true,
+   "par": "P-B|base|0xf1c55b6e063ee90a33ffe62debe618962bae021e"
+  },
+  "P-C|ethereum|0x13e12bb0e6a2f1a3d6901a59a9d585e89a6243e1": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xcacd6fd266af91b8aed52accc382b4e165586e29|0xcacd6fd266af91b8aed52accc382b4e165586e29|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791789455,
+       "hasta_ts": 1794347267,
+       "n_hermanos": 0,
+       "n_propias": 772
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0xbb8494177e2a846e233ec7d56944f0d15e697ee2|0xbb8494177e2a846e233ec7d56944f0d15e697ee2|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (887 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 887,
+       "n_propias": 8
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x00000000000000000000000000000000000000000000000000000000000001e0\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0xbb8494177e2a846e233ec7d56944f0d15e697ee2|0xbb8494177e2a846e233ec7d56944f0d15e697ee2|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x13e12bb0e6a2f1a3d6901a59a9d585e89a6243e1|0x13e12bb0e6a2f1a3d6901a59a9d585e89a6243e1|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1792047155,
+       "hasta_ts": 1793832899,
+       "n_hermanos": 0,
+       "n_propias": 14
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x22804b0f6be741a9fa1bbaecdd6c8d4116e96944|0x22804b0f6be741a9fa1bbaecdd6c8d4116e96944|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x22804b0f6be741a9fa1bbaecdd6c8d4116e96944|0x22804b0f6be741a9fa1bbaecdd6c8d4116e96944|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791791267,
+       "hasta_ts": 1794047243,
+       "n_hermanos": 0,
+       "n_propias": 17
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x13e12bb0e6a2f1a3d6901a59a9d585e89a6243e1|0x13e12bb0e6a2f1a3d6901a59a9d585e89a6243e1|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791791315,
+       "hasta_ts": 1794222779,
+       "n_hermanos": 0,
+       "n_propias": 17
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x13e12bb0e6a2f1a3d6901a59a9d585e89a6243e1"
+  },
+  "P-C|ethereum|0x17f9682c9cd1a448b31c0428f1d0783ed13a9fa3": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xbc6da0fe9ad5f3b0d58160288917aa56653660e9|0xbc6da0fe9ad5f3b0d58160288917aa56653660e9|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791799691,
+       "hasta_ts": 1794306419,
+       "n_hermanos": 0,
+       "n_propias": 80
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0xf368868d253d7f956529ee55515fea250c67e890|0xf368868d253d7f956529ee55515fea250c67e890|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (894 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 894,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000227\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0xf368868d253d7f956529ee55515fea250c67e890|0xf368868d253d7f956529ee55515fea250c67e890|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x17f9682c9cd1a448b31c0428f1d0783ed13a9fa3|0x17f9682c9cd1a448b31c0428f1d0783ed13a9fa3|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1220 tx)",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1793804279,
+       "n_hermanos": 1220,
+       "n_propias": 0
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xb069d59fddfe8e2e6e624951e306d4fdc056fa82|0xb069d59fddfe8e2e6e624951e306d4fdc056fa82|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xb069d59fddfe8e2e6e624951e306d4fdc056fa82|0xb069d59fddfe8e2e6e624951e306d4fdc056fa82|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (471 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 471,
+       "n_propias": 1
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x17f9682c9cd1a448b31c0428f1d0783ed13a9fa3|0x17f9682c9cd1a448b31c0428f1d0783ed13a9fa3|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1148 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1148,
+       "n_propias": 1
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x17f9682c9cd1a448b31c0428f1d0783ed13a9fa3"
+  },
+  "P-C|ethereum|0x3c0965582db7a0f660d491aa6174b9438f911c21": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0x501ebf66d76a96d4fb26ccead42957653e16b8b8|0x501ebf66d76a96d4fb26ccead42957653e16b8b8|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791948395,
+       "hasta_ts": 1794107771,
+       "n_hermanos": 0,
+       "n_propias": 11
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x630491d35e11724ce02117337c4157eaf118bf41|0x630491d35e11724ce02117337c4157eaf118bf41|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (894 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 894,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x000000000000000000000000000000000000000000000000000000000000022f\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x630491d35e11724ce02117337c4157eaf118bf41|0x630491d35e11724ce02117337c4157eaf118bf41|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x3c0965582db7a0f660d491aa6174b9438f911c21|0x3c0965582db7a0f660d491aa6174b9438f911c21|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1218 tx)",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1793804279,
+       "n_hermanos": 1218,
+       "n_propias": 2
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xbe6228125448e40f5dcbb2dbdf7ff3f5721000b4|0xbe6228125448e40f5dcbb2dbdf7ff3f5721000b4|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xbe6228125448e40f5dcbb2dbdf7ff3f5721000b4|0xbe6228125448e40f5dcbb2dbdf7ff3f5721000b4|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (472 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 472,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x3c0965582db7a0f660d491aa6174b9438f911c21|0x3c0965582db7a0f660d491aa6174b9438f911c21|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1149 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1149,
+       "n_propias": 2
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x3c0965582db7a0f660d491aa6174b9438f911c21"
+  },
+  "P-C|ethereum|0x460638e6f7605b866736e38045c0de8294d7d87f": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xb45ad160634c528cc3d2926d9807104fa3157305|0xb45ad160634c528cc3d2926d9807104fa3157305|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791911351,
+       "hasta_ts": 1794257075,
+       "n_hermanos": 0,
+       "n_propias": 66
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x7ee5f33e36988070a8e265a0f28a91514f45f630|0x7ee5f33e36988070a8e265a0f28a91514f45f630|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (894 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 894,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x000000000000000000000000000000000000000000000000000000000000019d\"]",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (332 tx)",
+       "desde_ts": 1791772043,
+       "hasta_ts": 1794345191,
+       "n_hermanos": 332,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x7ee5f33e36988070a8e265a0f28a91514f45f630|0x7ee5f33e36988070a8e265a0f28a91514f45f630|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x460638e6f7605b866736e38045c0de8294d7d87f|0x460638e6f7605b866736e38045c0de8294d7d87f|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1220 tx)",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1793804279,
+       "n_hermanos": 1220,
+       "n_propias": 0
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x19f9266f349158b54a6d95dce79297df670f7f14|0x19f9266f349158b54a6d95dce79297df670f7f14|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x19f9266f349158b54a6d95dce79297df670f7f14|0x19f9266f349158b54a6d95dce79297df670f7f14|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (471 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 471,
+       "n_propias": 1
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x460638e6f7605b866736e38045c0de8294d7d87f|0x460638e6f7605b866736e38045c0de8294d7d87f|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1148 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1148,
+       "n_propias": 1
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [],
+   "dos_pasos": [],
+   "medible": true,
+   "par": "P-C|ethereum|0x460638e6f7605b866736e38045c0de8294d7d87f"
+  },
+  "P-C|ethereum|0x47ab5f9d8c9c7d002a92320f23a696d348c56a7f": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xcacd6fd266af91b8aed52accc382b4e165586e29|0xcacd6fd266af91b8aed52accc382b4e165586e29|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791789455,
+       "hasta_ts": 1794347267,
+       "n_hermanos": 0,
+       "n_propias": 772
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x7965e872f2c33e0601e82a340064301a0386373f|0x7965e872f2c33e0601e82a340064301a0386373f|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (892 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 892,
+       "n_propias": 2
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000245\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x7965e872f2c33e0601e82a340064301a0386373f|0x7965e872f2c33e0601e82a340064301a0386373f|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x47ab5f9d8c9c7d002a92320f23a696d348c56a7f|0x47ab5f9d8c9c7d002a92320f23a696d348c56a7f|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1216 tx)",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1793804279,
+       "n_hermanos": 1216,
+       "n_propias": 4
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xf9a743b2e7f073d3e7d3fe71ab2047dc79b7386b|0xf9a743b2e7f073d3e7d3fe71ab2047dc79b7386b|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xf9a743b2e7f073d3e7d3fe71ab2047dc79b7386b|0xf9a743b2e7f073d3e7d3fe71ab2047dc79b7386b|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (467 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 467,
+       "n_propias": 5
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x47ab5f9d8c9c7d002a92320f23a696d348c56a7f|0x47ab5f9d8c9c7d002a92320f23a696d348c56a7f|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1144 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1144,
+       "n_propias": 7
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x47ab5f9d8c9c7d002a92320f23a696d348c56a7f"
+  },
+  "P-C|ethereum|0x48d670d189b4b48757992d36897bca6e3f889040": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0x57ab1e0003f623289cd798b1824be09a793e4bec|0x57ab1e0003f623289cd798b1824be09a793e4bec|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791774875,
+       "hasta_ts": 1794311123,
+       "n_hermanos": 0,
+       "n_propias": 195
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x2042468f1d356f78717818531958d744114347b4|0x2042468f1d356f78717818531958d744114347b4|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (892 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 892,
+       "n_propias": 4
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x00000000000000000000000000000000000000000000000000000000000001be\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x2042468f1d356f78717818531958d744114347b4|0x2042468f1d356f78717818531958d744114347b4|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x48d670d189b4b48757992d36897bca6e3f889040|0x48d670d189b4b48757992d36897bca6e3f889040|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1794267803,
+       "n_hermanos": 0,
+       "n_propias": 122
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xcb25249bfa8cdb6012a75070e5c2885151368bef|0xcb25249bfa8cdb6012a75070e5c2885151368bef|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xcb25249bfa8cdb6012a75070e5c2885151368bef|0xcb25249bfa8cdb6012a75070e5c2885151368bef|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (463 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 463,
+       "n_propias": 9
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x48d670d189b4b48757992d36897bca6e3f889040|0x48d670d189b4b48757992d36897bca6e3f889040|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791791231,
+       "hasta_ts": 1794092699,
+       "n_hermanos": 0,
+       "n_propias": 11
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x48d670d189b4b48757992d36897bca6e3f889040"
+  },
+  "P-C|ethereum|0x5018be882dcce5e3f2f3b0913ae2096b9b3fb61f": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791769379,
+       "hasta_ts": 1794350747,
+       "n_hermanos": 0,
+       "n_propias": 3313
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x64973ee75eb00b99e99eeb8c380550a5c4eb680d|0x64973ee75eb00b99e99eeb8c380550a5c4eb680d|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (894 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 894,
+       "n_propias": 1
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000179\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x64973ee75eb00b99e99eeb8c380550a5c4eb680d|0x64973ee75eb00b99e99eeb8c380550a5c4eb680d|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x5018be882dcce5e3f2f3b0913ae2096b9b3fb61f|0x5018be882dcce5e3f2f3b0913ae2096b9b3fb61f|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1792220975,
+       "hasta_ts": 1794336167,
+       "n_hermanos": 0,
+       "n_propias": 43
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xd7f9111d529ed8859a0d5a1dc1ba7a021b61f22a|0xd7f9111d529ed8859a0d5a1dc1ba7a021b61f22a|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (115 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 115,
+       "n_propias": 1
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xd7f9111d529ed8859a0d5a1dc1ba7a021b61f22a|0xd7f9111d529ed8859a0d5a1dc1ba7a021b61f22a|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (470 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 470,
+       "n_propias": 2
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x5018be882dcce5e3f2f3b0913ae2096b9b3fb61f|0x5018be882dcce5e3f2f3b0913ae2096b9b3fb61f|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791979823,
+       "hasta_ts": 1794091307,
+       "n_hermanos": 0,
+       "n_propias": 21
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x5018be882dcce5e3f2f3b0913ae2096b9b3fb61f"
+  },
+  "P-C|ethereum|0x516c3ecfe45f0820653e08dd7c93633d71b93cb5": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xf939e0a03fb07f59a73314e73794be0e57ac1b4e|0xf939e0a03fb07f59a73314e73794be0e57ac1b4e|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791775199,
+       "hasta_ts": 1794348407,
+       "n_hermanos": 0,
+       "n_propias": 1018
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x19e154db83dbbaf6fefb262efba172362bb59a31|0x19e154db83dbbaf6fefb262efba172362bb59a31|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (890 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 890,
+       "n_propias": 6
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x000000000000000000000000000000000000000000000000000000000000022d\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x19e154db83dbbaf6fefb262efba172362bb59a31|0x19e154db83dbbaf6fefb262efba172362bb59a31|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x516c3ecfe45f0820653e08dd7c93633d71b93cb5|0x516c3ecfe45f0820653e08dd7c93633d71b93cb5|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791903323,
+       "hasta_ts": 1794041099,
+       "n_hermanos": 0,
+       "n_propias": 12
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xf429aec167c92aca16cd77aef54f196b1988cba3|0xf429aec167c92aca16cd77aef54f196b1988cba3|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xf429aec167c92aca16cd77aef54f196b1988cba3|0xf429aec167c92aca16cd77aef54f196b1988cba3|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (472 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 472,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x516c3ecfe45f0820653e08dd7c93633d71b93cb5|0x516c3ecfe45f0820653e08dd7c93633d71b93cb5|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1147 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1147,
+       "n_propias": 2
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x516c3ecfe45f0820653e08dd7c93633d71b93cb5"
+  },
+  "P-C|ethereum|0x57064f49ad7123c92560882a45518374ad982e85": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xf939e0a03fb07f59a73314e73794be0e57ac1b4e|0xf939e0a03fb07f59a73314e73794be0e57ac1b4e|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791775199,
+       "hasta_ts": 1794348407,
+       "n_hermanos": 0,
+       "n_propias": 1018
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x0fce355888851408f30a6ccc3c77f6d9eee75834|0x0fce355888851408f30a6ccc3c77f6d9eee75834|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (893 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 893,
+       "n_propias": 3
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x000000000000000000000000000000000000000000000000000000000000016a\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x0fce355888851408f30a6ccc3c77f6d9eee75834|0x0fce355888851408f30a6ccc3c77f6d9eee75834|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x57064f49ad7123c92560882a45518374ad982e85|0x57064f49ad7123c92560882a45518374ad982e85|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1793351015,
+       "hasta_ts": 1793790947,
+       "n_hermanos": 0,
+       "n_propias": 10
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x76f236a0cc1c90425d8ab5f042970454311482ab|0x76f236a0cc1c90425d8ab5f042970454311482ab|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x76f236a0cc1c90425d8ab5f042970454311482ab|0x76f236a0cc1c90425d8ab5f042970454311482ab|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (471 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 471,
+       "n_propias": 1
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x57064f49ad7123c92560882a45518374ad982e85|0x57064f49ad7123c92560882a45518374ad982e85|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1147 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1147,
+       "n_propias": 4
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x57064f49ad7123c92560882a45518374ad982e85"
+  },
+  "P-C|ethereum|0x5b03cccab7ba3010fa5cad23746cbf0794938e96": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xdac17f958d2ee523a2206206994597c13d831ec7|0xdac17f958d2ee523a2206206994597c13d831ec7|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791769331,
+       "hasta_ts": 1794350747,
+       "n_hermanos": 0,
+       "n_propias": 4108
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x60ef3c53c86e1ecec76d900b6cf2f0b39ffd98b2|0x60ef3c53c86e1ecec76d900b6cf2f0b39ffd98b2|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (889 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 889,
+       "n_propias": 6
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x00000000000000000000000000000000000000000000000000000000000001b5\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x60ef3c53c86e1ecec76d900b6cf2f0b39ffd98b2|0x60ef3c53c86e1ecec76d900b6cf2f0b39ffd98b2|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x5b03cccab7ba3010fa5cad23746cbf0794938e96|0x5b03cccab7ba3010fa5cad23746cbf0794938e96|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791896327,
+       "hasta_ts": 1794185999,
+       "n_hermanos": 0,
+       "n_propias": 16
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x1c94126f29a9d6f9ef3ccb1d5d58ebcacc519f85|0x1c94126f29a9d6f9ef3ccb1d5d58ebcacc519f85|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (112 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 112,
+       "n_propias": 4
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x1c94126f29a9d6f9ef3ccb1d5d58ebcacc519f85|0x1c94126f29a9d6f9ef3ccb1d5d58ebcacc519f85|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791884423,
+       "hasta_ts": 1794316739,
+       "n_hermanos": 0,
+       "n_propias": 11
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x5b03cccab7ba3010fa5cad23746cbf0794938e96|0x5b03cccab7ba3010fa5cad23746cbf0794938e96|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1792037843,
+       "hasta_ts": 1794349391,
+       "n_hermanos": 0,
+       "n_propias": 23
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x5b03cccab7ba3010fa5cad23746cbf0794938e96"
+  },
+  "P-C|ethereum|0x5dc1bf6f1e983c0b21efb003c105133736fa0743": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0x853d955acef822db058eb8505911ed77f175b99e|0x853d955acef822db058eb8505911ed77f175b99e|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766271,
+       "hasta_ts": 1794339599,
+       "n_hermanos": 0,
+       "n_propias": 158
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0xc030b717b96b83bf4ec4a075dd547614953968fd|0xc030b717b96b83bf4ec4a075dd547614953968fd|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (894 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 894,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000116\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0xc030b717b96b83bf4ec4a075dd547614953968fd|0xc030b717b96b83bf4ec4a075dd547614953968fd|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x5dc1bf6f1e983c0b21efb003c105133736fa0743|0x5dc1bf6f1e983c0b21efb003c105133736fa0743|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1219 tx)",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1793804279,
+       "n_hermanos": 1219,
+       "n_propias": 1
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xb53c23d2cc6219adf78ea22bfd38bffc50ec54cb|0xb53c23d2cc6219adf78ea22bfd38bffc50ec54cb|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xb53c23d2cc6219adf78ea22bfd38bffc50ec54cb|0xb53c23d2cc6219adf78ea22bfd38bffc50ec54cb|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (472 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 472,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x5dc1bf6f1e983c0b21efb003c105133736fa0743|0x5dc1bf6f1e983c0b21efb003c105133736fa0743|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1149 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1149,
+       "n_propias": 0
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x5dc1bf6f1e983c0b21efb003c105133736fa0743"
+  },
+  "P-C|ethereum|0x625e92624bc2d88619accc1788365a69767f6200": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0x6c3ea9036406852006290770bedfcaba0e23a0e8|0x6c3ea9036406852006290770bedfcaba0e23a0e8|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791764195,
+       "hasta_ts": 1794350543,
+       "n_hermanos": 0,
+       "n_propias": 3671
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x79579633029a61963edfba1c0be22498b6e0d33d|0x79579633029a61963edfba1c0be22498b6e0d33d|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (891 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 891,
+       "n_propias": 5
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000121\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": 1792195931,
+       "hasta_ts": 1793397299,
+       "n_hermanos": 0,
+       "n_propias": 2
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x79579633029a61963edfba1c0be22498b6e0d33d|0x79579633029a61963edfba1c0be22498b6e0d33d|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x625e92624bc2d88619accc1788365a69767f6200|0x625e92624bc2d88619accc1788365a69767f6200|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791791495,
+       "hasta_ts": 1794338783,
+       "n_hermanos": 0,
+       "n_propias": 31
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xf69fb60b79e463384b40dbfdfb633ab5a863c9a2|0xf69fb60b79e463384b40dbfdfb633ab5a863c9a2|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1794178487,
+       "hasta_ts": 1794338915,
+       "n_hermanos": 0,
+       "n_propias": 17
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xf69fb60b79e463384b40dbfdfb633ab5a863c9a2|0xf69fb60b79e463384b40dbfdfb633ab5a863c9a2|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1792271039,
+       "hasta_ts": 1794249227,
+       "n_hermanos": 0,
+       "n_propias": 17
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x625e92624bc2d88619accc1788365a69767f6200|0x625e92624bc2d88619accc1788365a69767f6200|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791828311,
+       "hasta_ts": 1794229175,
+       "n_hermanos": 0,
+       "n_propias": 10
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 2, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x625e92624bc2d88619accc1788365a69767f6200"
+  },
+  "P-C|ethereum|0x635ef0056a597d13863b73825cca297236578595": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f|0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763655,
+       "hasta_ts": 1794349835,
+       "n_hermanos": 0,
+       "n_propias": 825
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x5ec758f79b96ae74e7f1ba9583009afb3fc8eacb|0x5ec758f79b96ae74e7f1ba9583009afb3fc8eacb|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (891 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 891,
+       "n_propias": 3
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x000000000000000000000000000000000000000000000000000000000000014f\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x5ec758f79b96ae74e7f1ba9583009afb3fc8eacb|0x5ec758f79b96ae74e7f1ba9583009afb3fc8eacb|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x635ef0056a597d13863b73825cca297236578595|0x635ef0056a597d13863b73825cca297236578595|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1214 tx)",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1793804279,
+       "n_hermanos": 1214,
+       "n_propias": 7
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x4717c25df44e280ec5b31acbd8c194e1ed24efe2|0x4717c25df44e280ec5b31acbd8c194e1ed24efe2|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x4717c25df44e280ec5b31acbd8c194e1ed24efe2|0x4717c25df44e280ec5b31acbd8c194e1ed24efe2|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (468 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 468,
+       "n_propias": 4
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x635ef0056a597d13863b73825cca297236578595|0x635ef0056a597d13863b73825cca297236578595|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1143 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1143,
+       "n_propias": 7
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x635ef0056a597d13863b73825cca297236578595"
+  },
+  "P-C|ethereum|0x68e392e7875cc23806a8bbc5b1a5d53a366c2c7e": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xcacd6fd266af91b8aed52accc382b4e165586e29|0xcacd6fd266af91b8aed52accc382b4e165586e29|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791789455,
+       "hasta_ts": 1794347267,
+       "n_hermanos": 0,
+       "n_propias": 772
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x23700e268931c4d30eb7111f8a1d53edf09d3598|0x23700e268931c4d30eb7111f8a1d53edf09d3598|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (893 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 893,
+       "n_propias": 1
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000244\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x23700e268931c4d30eb7111f8a1d53edf09d3598|0x23700e268931c4d30eb7111f8a1d53edf09d3598|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x68e392e7875cc23806a8bbc5b1a5d53a366c2c7e|0x68e392e7875cc23806a8bbc5b1a5d53a366c2c7e|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1792067735,
+       "hasta_ts": 1793176979,
+       "n_hermanos": 0,
+       "n_propias": 13
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xb1bbc3c55e914b5bd2b0592629faa236d5c3bd6d|0xb1bbc3c55e914b5bd2b0592629faa236d5c3bd6d|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xb1bbc3c55e914b5bd2b0592629faa236d5c3bd6d|0xb1bbc3c55e914b5bd2b0592629faa236d5c3bd6d|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1792846691,
+       "hasta_ts": 1793874143,
+       "n_hermanos": 0,
+       "n_propias": 10
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x68e392e7875cc23806a8bbc5b1a5d53a366c2c7e|0x68e392e7875cc23806a8bbc5b1a5d53a366c2c7e|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1145 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1145,
+       "n_propias": 6
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x68e392e7875cc23806a8bbc5b1a5d53a366c2c7e"
+  },
+  "P-C|ethereum|0x72310daaed61321b02b08a547150c07522c6a976": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791769379,
+       "hasta_ts": 1794350747,
+       "n_hermanos": 0,
+       "n_propias": 3313
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x4a87e4219f10510b0943dcd0cd0247868ec59e85|0x4a87e4219f10510b0943dcd0cd0247868ec59e85|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (893 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 893,
+       "n_propias": 1
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x00000000000000000000000000000000000000000000000000000000000001c1\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x4a87e4219f10510b0943dcd0cd0247868ec59e85|0x4a87e4219f10510b0943dcd0cd0247868ec59e85|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x72310daaed61321b02b08a547150c07522c6a976|0x72310daaed61321b02b08a547150c07522c6a976|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1220 tx)",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1793804279,
+       "n_hermanos": 1220,
+       "n_propias": 0
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x156527def9a2ab4f54c849575f23dc4bb439d9d9|0x156527def9a2ab4f54c849575f23dc4bb439d9d9|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x156527def9a2ab4f54c849575f23dc4bb439d9d9|0x156527def9a2ab4f54c849575f23dc4bb439d9d9|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (472 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 472,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x72310daaed61321b02b08a547150c07522c6a976|0x72310daaed61321b02b08a547150c07522c6a976|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1147 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1147,
+       "n_propias": 3
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x72310daaed61321b02b08a547150c07522c6a976"
+  },
+  "P-C|ethereum|0x744793b5110f6ca9cc7cdfe1ce16677c3eb192ef": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0x865377367054516e17014ccded1e7d814edc9ce4|0x865377367054516e17014ccded1e7d814edc9ce4|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791767795,
+       "hasta_ts": 1794326519,
+       "n_hermanos": 0,
+       "n_propias": 219
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0xf1d547f657a05a4a081f899070a5585eb9f326b2|0xf1d547f657a05a4a081f899070a5585eb9f326b2|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791793415,
+       "hasta_ts": 1794314555,
+       "n_hermanos": 0,
+       "n_propias": 45
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x000000000000000000000000000000000000000000000000000000000000018e\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0xf1d547f657a05a4a081f899070a5585eb9f326b2|0xf1d547f657a05a4a081f899070a5585eb9f326b2|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x744793b5110f6ca9cc7cdfe1ce16677c3eb192ef|0x744793b5110f6ca9cc7cdfe1ce16677c3eb192ef|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791783359,
+       "hasta_ts": 1794290291,
+       "n_hermanos": 0,
+       "n_propias": 48
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x8f5e52be9b7bde850ba13e40284f63f14677058f|0x8f5e52be9b7bde850ba13e40284f63f14677058f|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x8f5e52be9b7bde850ba13e40284f63f14677058f|0x8f5e52be9b7bde850ba13e40284f63f14677058f|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (472 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 472,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x744793b5110f6ca9cc7cdfe1ce16677c3eb192ef|0x744793b5110f6ca9cc7cdfe1ce16677c3eb192ef|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1792733291,
+       "hasta_ts": 1793964947,
+       "n_hermanos": 0,
+       "n_propias": 25
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x744793b5110f6ca9cc7cdfe1ce16677c3eb192ef"
+  },
+  "P-C|ethereum|0x8b83c4aa949254895507d09365229bc3a8c7f710": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0x865377367054516e17014ccded1e7d814edc9ce4|0x865377367054516e17014ccded1e7d814edc9ce4|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791767795,
+       "hasta_ts": 1794326519,
+       "n_hermanos": 0,
+       "n_propias": 219
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x081eb123c1dda50541ee778b59ac2f69704b9a19|0x081eb123c1dda50541ee778b59ac2f69704b9a19|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (893 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 893,
+       "n_propias": 1
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x000000000000000000000000000000000000000000000000000000000000018f\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x081eb123c1dda50541ee778b59ac2f69704b9a19|0x081eb123c1dda50541ee778b59ac2f69704b9a19|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x8b83c4aa949254895507d09365229bc3a8c7f710|0x8b83c4aa949254895507d09365229bc3a8c7f710|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791840983,
+       "hasta_ts": 1794314075,
+       "n_hermanos": 0,
+       "n_propias": 14
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x8b0abcfc78a5c14520682fcd76a0e52b71126079|0x8b0abcfc78a5c14520682fcd76a0e52b71126079|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x8b0abcfc78a5c14520682fcd76a0e52b71126079|0x8b0abcfc78a5c14520682fcd76a0e52b71126079|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (472 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 472,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x8b83c4aa949254895507d09365229bc3a8c7f710|0x8b83c4aa949254895507d09365229bc3a8c7f710|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1146 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1146,
+       "n_propias": 5
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x8b83c4aa949254895507d09365229bc3a8c7f710"
+  },
+  "P-C|ethereum|0x9a9e2e70919c75d80aaaa1d483c46cdbb8ac4d1b": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xcacd6fd266af91b8aed52accc382b4e165586e29|0xcacd6fd266af91b8aed52accc382b4e165586e29|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791789455,
+       "hasta_ts": 1794347267,
+       "n_hermanos": 0,
+       "n_propias": 772
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x60aa76b7797644c89eb004b84286b47517a8ddb3|0x60aa76b7797644c89eb004b84286b47517a8ddb3|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1792023707,
+       "hasta_ts": 1794304139,
+       "n_hermanos": 0,
+       "n_propias": 23
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x00000000000000000000000000000000000000000000000000000000000001fe\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": 1792875779,
+       "hasta_ts": 1792875779,
+       "n_hermanos": 0,
+       "n_propias": 1
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x60aa76b7797644c89eb004b84286b47517a8ddb3|0x60aa76b7797644c89eb004b84286b47517a8ddb3|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0x9a9e2e70919c75d80aaaa1d483c46cdbb8ac4d1b|0x9a9e2e70919c75d80aaaa1d483c46cdbb8ac4d1b|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791821339,
+       "hasta_ts": 1794258803,
+       "n_hermanos": 0,
+       "n_propias": 12
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x6a253c9fe5aaff662e072aa694ce53b917adb278|0x6a253c9fe5aaff662e072aa694ce53b917adb278|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x6a253c9fe5aaff662e072aa694ce53b917adb278|0x6a253c9fe5aaff662e072aa694ce53b917adb278|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (468 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 468,
+       "n_propias": 4
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0x9a9e2e70919c75d80aaaa1d483c46cdbb8ac4d1b|0x9a9e2e70919c75d80aaaa1d483c46cdbb8ac4d1b|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1148 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1148,
+       "n_propias": 3
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 1, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0x9a9e2e70919c75d80aaaa1d483c46cdbb8ac4d1b"
+  },
+  "P-C|ethereum|0xafec61e7a604f8f81f7cab64ec75bfa07c542630": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xf7d85ec4e7710f71992752eac2111312e73e9c9c|0xf7d85ec4e7710f71992752eac2111312e73e9c9c|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791797135,
+       "hasta_ts": 1794217811,
+       "n_hermanos": 0,
+       "n_propias": 31
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x3ff46299658db0d49f3c6b8787a3bed0c95c9195|0x3ff46299658db0d49f3c6b8787a3bed0c95c9195|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (891 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 891,
+       "n_propias": 6
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000237\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x3ff46299658db0d49f3c6b8787a3bed0c95c9195|0x3ff46299658db0d49f3c6b8787a3bed0c95c9195|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0xafec61e7a604f8f81f7cab64ec75bfa07c542630|0xafec61e7a604f8f81f7cab64ec75bfa07c542630|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1220 tx)",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1793804279,
+       "n_hermanos": 1220,
+       "n_propias": 0
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x8abf0a7e4b59ace59cb214fcb158285cd7cf7c3f|0x8abf0a7e4b59ace59cb214fcb158285cd7cf7c3f|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x8abf0a7e4b59ace59cb214fcb158285cd7cf7c3f|0x8abf0a7e4b59ace59cb214fcb158285cd7cf7c3f|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (468 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 468,
+       "n_propias": 3
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0xafec61e7a604f8f81f7cab64ec75bfa07c542630|0xafec61e7a604f8f81f7cab64ec75bfa07c542630|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1148 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1148,
+       "n_propias": 1
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0xafec61e7a604f8f81f7cab64ec75bfa07c542630"
+  },
+  "P-C|ethereum|0xb0ef04ace97d350e24efa5139d2590d26a61a8dc": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0x57ab1e0003f623289cd798b1824be09a793e4bec|0x57ab1e0003f623289cd798b1824be09a793e4bec|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791774875,
+       "hasta_ts": 1794311123,
+       "n_hermanos": 0,
+       "n_propias": 195
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x46e764cc319f0033d35902b1acf2cda45c7b9b7b|0x46e764cc319f0033d35902b1acf2cda45c7b9b7b|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791765947,
+       "hasta_ts": 1794332159,
+       "n_hermanos": 0,
+       "n_propias": 264
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x00000000000000000000000000000000000000000000000000000000000001bf\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x46e764cc319f0033d35902b1acf2cda45c7b9b7b|0x46e764cc319f0033d35902b1acf2cda45c7b9b7b|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0xb0ef04ace97d350e24efa5139d2590d26a61a8dc|0xb0ef04ace97d350e24efa5139d2590d26a61a8dc|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791978167,
+       "hasta_ts": 1794043307,
+       "n_hermanos": 0,
+       "n_propias": 12
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xf84657ca6db485ea38c63ca96dc396c2b3c6fdcc|0xf84657ca6db485ea38c63ca96dc396c2b3c6fdcc|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xf84657ca6db485ea38c63ca96dc396c2b3c6fdcc|0xf84657ca6db485ea38c63ca96dc396c2b3c6fdcc|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (471 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 471,
+       "n_propias": 1
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0xb0ef04ace97d350e24efa5139d2590d26a61a8dc|0xb0ef04ace97d350e24efa5139d2590d26a61a8dc|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1149 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1149,
+       "n_propias": 1
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0xb0ef04ace97d350e24efa5139d2590d26a61a8dc"
+  },
+  "P-C|ethereum|0xbf5047039f2980c21eb5692c790bad8a9533b900": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf|0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791767591,
+       "hasta_ts": 1794283583,
+       "n_hermanos": 0,
+       "n_propias": 71
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x76468e4ec9eadc70599502d2da330bb22fea1202|0x76468e4ec9eadc70599502d2da330bb22fea1202|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791908423,
+       "hasta_ts": 1794266267,
+       "n_hermanos": 0,
+       "n_propias": 11
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000207\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x76468e4ec9eadc70599502d2da330bb22fea1202|0x76468e4ec9eadc70599502d2da330bb22fea1202|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0xbf5047039f2980c21eb5692c790bad8a9533b900|0xbf5047039f2980c21eb5692c790bad8a9533b900|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791786851,
+       "hasta_ts": 1793860739,
+       "n_hermanos": 0,
+       "n_propias": 10
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x81d837437fd18736ffd3b5c9a5a2aa835c7637e7|0x81d837437fd18736ffd3b5c9a5a2aa835c7637e7|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x81d837437fd18736ffd3b5c9a5a2aa835c7637e7|0x81d837437fd18736ffd3b5c9a5a2aa835c7637e7|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (470 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 470,
+       "n_propias": 2
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0xbf5047039f2980c21eb5692c790bad8a9533b900|0xbf5047039f2980c21eb5692c790bad8a9533b900|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1144 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1144,
+       "n_propias": 7
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0xbf5047039f2980c21eb5692c790bad8a9533b900"
+  },
+  "P-C|ethereum|0xc522a6606bba746d7960404f22a3db936b6f4f50": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0x57ab1e0003f623289cd798b1824be09a793e4bec|0x57ab1e0003f623289cd798b1824be09a793e4bec|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791774875,
+       "hasta_ts": 1794311123,
+       "n_hermanos": 0,
+       "n_propias": 195
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x7fafc1876970dbd9f6568586efa7d0fac0fe8ea8|0x7fafc1876970dbd9f6568586efa7d0fac0fe8ea8|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794217115,
+       "n_hermanos": 0,
+       "n_propias": 136
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x00000000000000000000000000000000000000000000000000000000000001b8\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1792225511,
+       "hasta_ts": 1794090851,
+       "n_hermanos": 0,
+       "n_propias": 19
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x7fafc1876970dbd9f6568586efa7d0fac0fe8ea8|0x7fafc1876970dbd9f6568586efa7d0fac0fe8ea8|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (175 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 175,
+       "n_propias": 1
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0xc522a6606bba746d7960404f22a3db936b6f4f50|0xc522a6606bba746d7960404f22a3db936b6f4f50|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791786419,
+       "hasta_ts": 1794267863,
+       "n_hermanos": 0,
+       "n_propias": 52
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xaf01d68714e7ea67f43f08b5947e367126b889b1|0xaf01d68714e7ea67f43f08b5947e367126b889b1|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (115 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 115,
+       "n_propias": 1
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xaf01d68714e7ea67f43f08b5947e367126b889b1|0xaf01d68714e7ea67f43f08b5947e367126b889b1|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1792084055,
+       "hasta_ts": 1794320771,
+       "n_hermanos": 0,
+       "n_propias": 21
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0xc522a6606bba746d7960404f22a3db936b6f4f50|0xc522a6606bba746d7960404f22a3db936b6f4f50|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1792044995,
+       "hasta_ts": 1794303899,
+       "n_hermanos": 0,
+       "n_propias": 44
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [],
+   "dos_pasos": [],
+   "medible": true,
+   "par": "P-C|ethereum|0xc522a6606bba746d7960404f22a3db936b6f4f50"
+  },
+  "P-C|ethereum|0xd001ae433f254283fece51d4acce8c53263aa186": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791769379,
+       "hasta_ts": 1794350747,
+       "n_hermanos": 0,
+       "n_propias": 3313
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x5a71e7e04f8725fd42a216949e7099ebd08a42e3|0x5a71e7e04f8725fd42a216949e7099ebd08a42e3|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (892 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 892,
+       "n_propias": 2
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x00000000000000000000000000000000000000000000000000000000000001bb\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x5a71e7e04f8725fd42a216949e7099ebd08a42e3|0x5a71e7e04f8725fd42a216949e7099ebd08a42e3|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0xd001ae433f254283fece51d4acce8c53263aa186|0xd001ae433f254283fece51d4acce8c53263aa186|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791888443,
+       "hasta_ts": 1794294215,
+       "n_hermanos": 0,
+       "n_propias": 35
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xfc3212bd9ad9a28da6b2bd50a2918969c126894f|0xfc3212bd9ad9a28da6b2bd50a2918969c126894f|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794009779,
+       "n_hermanos": 0,
+       "n_propias": 10
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xfc3212bd9ad9a28da6b2bd50a2918969c126894f|0xfc3212bd9ad9a28da6b2bd50a2918969c126894f|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791777359,
+       "hasta_ts": 1794321683,
+       "n_hermanos": 0,
+       "n_propias": 42
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0xd001ae433f254283fece51d4acce8c53263aa186|0xd001ae433f254283fece51d4acce8c53263aa186|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791815663,
+       "hasta_ts": 1794306179,
+       "n_hermanos": 0,
+       "n_propias": 53
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0xd001ae433f254283fece51d4acce8c53263aa186"
+  },
+  "P-C|ethereum|0xd29f8980852c2c76fc3f6e96a7aa06e0bedcc1b1": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0x0655977feb2f289a4ab78af67bab0d17aab84367|0x0655977feb2f289a4ab78af67bab0d17aab84367|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791785831,
+       "hasta_ts": 1794335639,
+       "n_hermanos": 0,
+       "n_propias": 192
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x11fd8801a051b296e337a3e1168839fb346d5940|0x11fd8801a051b296e337a3e1168839fb346d5940|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (893 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 893,
+       "n_propias": 1
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000191\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x11fd8801a051b296e337a3e1168839fb346d5940|0x11fd8801a051b296e337a3e1168839fb346d5940|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0xd29f8980852c2c76fc3f6e96a7aa06e0bedcc1b1|0xd29f8980852c2c76fc3f6e96a7aa06e0bedcc1b1|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1217 tx)",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1793804279,
+       "n_hermanos": 1217,
+       "n_propias": 6
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x4fcd885b3070d5a44d22b2a4b443b67fa95e0d8f|0x4fcd885b3070d5a44d22b2a4b443b67fa95e0d8f|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x4fcd885b3070d5a44d22b2a4b443b67fa95e0d8f|0x4fcd885b3070d5a44d22b2a4b443b67fa95e0d8f|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (469 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 469,
+       "n_propias": 3
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0xd29f8980852c2c76fc3f6e96a7aa06e0bedcc1b1|0xd29f8980852c2c76fc3f6e96a7aa06e0bedcc1b1|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1146 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1146,
+       "n_propias": 6
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0xd29f8980852c2c76fc3f6e96a7aa06e0bedcc1b1"
+  },
+  "P-C|ethereum|0xecb0f0d68c19bdaadaebe24f6752a4db34e2c2cb": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf|0xc0c17dd08263c16f6b64e772fb9b723bf1344ddf|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791767591,
+       "hasta_ts": 1794283583,
+       "n_hermanos": 0,
+       "n_propias": 71
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0xc75c8c6d2d47aaa711d79e1fe20d4cb1ad147702|0xc75c8c6d2d47aaa711d79e1fe20d4cb1ad147702|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791927371,
+       "hasta_ts": 1793955479,
+       "n_hermanos": 0,
+       "n_propias": 16
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x0000000000000000000000000000000000000000000000000000000000000206\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0xc75c8c6d2d47aaa711d79e1fe20d4cb1ad147702|0xc75c8c6d2d47aaa711d79e1fe20d4cb1ad147702|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0xecb0f0d68c19bdaadaebe24f6752a4db34e2c2cb|0xecb0f0d68c19bdaadaebe24f6752a4db34e2c2cb|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1215 tx)",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1793804279,
+       "n_hermanos": 1215,
+       "n_propias": 6
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0xf3c43e7d722963b9569d1e39873df9e2dfe8c087|0xf3c43e7d722963b9569d1e39873df9e2dfe8c087|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0xf3c43e7d722963b9569d1e39873df9e2dfe8c087|0xf3c43e7d722963b9569d1e39873df9e2dfe8c087|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (472 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 472,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0xecb0f0d68c19bdaadaebe24f6752a4db34e2c2cb|0xecb0f0d68c19bdaadaebe24f6752a4db34e2c2cb|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1144 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1144,
+       "n_propias": 5
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0xecb0f0d68c19bdaadaebe24f6752a4db34e2c2cb"
+  },
+  "P-C|ethereum|0xed785af60bed688baa8990cd5c4166221599a441": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0x57ab1e0003f623289cd798b1824be09a793e4bec|0x57ab1e0003f623289cd798b1824be09a793e4bec|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791774875,
+       "hasta_ts": 1794311123,
+       "n_hermanos": 0,
+       "n_propias": 195
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x18574c2047a2d4786567a2c31b4f25ae291ed6bf|0x18574c2047a2d4786567a2c31b4f25ae291ed6bf|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (891 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 891,
+       "n_propias": 5
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x00000000000000000000000000000000000000000000000000000000000001b7\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x18574c2047a2d4786567a2c31b4f25ae291ed6bf|0x18574c2047a2d4786567a2c31b4f25ae291ed6bf|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0xed785af60bed688baa8990cd5c4166221599a441|0xed785af60bed688baa8990cd5c4166221599a441|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791939887,
+       "hasta_ts": 1794206519,
+       "n_hermanos": 0,
+       "n_propias": 22
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x5c0b03914f68f2717d779a0211fd98c2cc45a4dd|0x5c0b03914f68f2717d779a0211fd98c2cc45a4dd|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x5c0b03914f68f2717d779a0211fd98c2cc45a4dd|0x5c0b03914f68f2717d779a0211fd98c2cc45a4dd|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (466 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 466,
+       "n_propias": 6
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0xed785af60bed688baa8990cd5c4166221599a441|0xed785af60bed688baa8990cd5c4166221599a441|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1148 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1148,
+       "n_propias": 2
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0xed785af60bed688baa8990cd5c4166221599a441"
+  },
+  "P-C|ethereum|0xf292eb6c5dcb693eaaf392d0562a01c3710e5978": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|approve|0xcf62f905562626cfcdd2261162a51fd02fc9c5b6|0xcf62f905562626cfcdd2261162a51fd02fc9c5b6|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791764219,
+       "hasta_ts": 1794327695,
+       "n_hermanos": 0,
+       "n_propias": 124
+      }
+     ],
+     "lado": "ambos"
+    },
+    "convex_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_claim|0x206689daedd00c82870d616c2e49b9d601a3d292|0x206689daedd00c82870d616c2e49b9d601a3d292|RewardPaid(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (894 tx)",
+       "desde_ts": 1791765191,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 894,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_deposit": {
+     "con_dato": false,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_deposit|0xf403c135812408bfbe8713b5a23a04b3d48aae31|0xf403c135812408bfbe8713b5a23a04b3d48aae31|Deposited(address,uint256,uint256)|[null, \"0x00000000000000000000000000000000000000000000000000000000000001f3\"]",
+       "con_dato": false,
+       "criterio": "C8(iii): sin_dato_gas",
+       "desde_ts": null,
+       "hasta_ts": null,
+       "n_hermanos": 0,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "convex_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|convex_withdraw|0x206689daedd00c82870d616c2e49b9d601a3d292|0x206689daedd00c82870d616c2e49b9d601a3d292|Withdrawn(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (176 tx)",
+       "desde_ts": 1791785111,
+       "hasta_ts": 1794352283,
+       "n_hermanos": 176,
+       "n_propias": 0
+      }
+     ],
+     "lado": "delegado"
+    },
+    "curve_add_liq": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_add_liq|0xf292eb6c5dcb693eaaf392d0562a01c3710e5978|0xf292eb6c5dcb693eaaf392d0562a01c3710e5978|AddLiquidity(address,uint256[],uint256[],uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1218 tx)",
+       "desde_ts": 1791765779,
+       "hasta_ts": 1793804279,
+       "n_hermanos": 1218,
+       "n_propias": 2
+      }
+     ],
+     "lado": "ambos"
+    },
+    "curve_gauge_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_deposit|0x9a356132605ad599aba34651aa2a606730bacaaa|0x9a356132605ad599aba34651aa2a606730bacaaa|Deposit(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (116 tx)",
+       "desde_ts": 1791823931,
+       "hasta_ts": 1794345875,
+       "n_hermanos": 116,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_gauge_withdraw": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_gauge_withdraw|0x9a356132605ad599aba34651aa2a606730bacaaa|0x9a356132605ad599aba34651aa2a606730bacaaa|Withdraw(address,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (472 tx)",
+       "desde_ts": 1791765371,
+       "hasta_ts": 1794353819,
+       "n_hermanos": 472,
+       "n_propias": 0
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_mint_crv": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_mint_crv|0xd061d61a4d941c39e5453435b6345dc261c2fce0|0xd061d61a4d941c39e5453435b6345dc261c2fce0|Minted(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791766727,
+       "hasta_ts": 1794355175,
+       "n_hermanos": 0,
+       "n_propias": 215
+      }
+     ],
+     "lado": "directo"
+    },
+    "curve_remove_one": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|curve_remove_one|0xf292eb6c5dcb693eaaf392d0562a01c3710e5978|0xf292eb6c5dcb693eaaf392d0562a01c3710e5978|RemoveLiquidityOne(address,int128,uint256,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "C8(ii): hermanos (1149 tx)",
+       "desde_ts": 1791765539,
+       "hasta_ts": 1793804027,
+       "n_hermanos": 1149,
+       "n_propias": 0
+      }
+     ],
+     "lado": "ambos"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763211,
+       "hasta_ts": 1794355067,
+       "n_hermanos": 0,
+       "n_propias": 8042
+      }
+     ],
+     "lado": "ambos"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "ethereum|swap|0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791772391,
+       "hasta_ts": 1794355127,
+       "n_hermanos": 0,
+       "n_propias": 1763
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [
+    "convex_deposit: ethereum|convex_deposit|0xf403c135812408bfbe8713 propias 0, hermanos 0 (< 10)"
+   ],
+   "dos_pasos": [],
+   "medible": false,
+   "par": "P-C|ethereum|0xf292eb6c5dcb693eaaf392d0562a01c3710e5978"
+  },
+  "P-D|arbitrum|0xf86119a39f8654f38acbbd5488bd83f3f51983c8": {
+   "acciones": {
+    "approve": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "arbitrum|approve|0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef|0x0a1a1a107e45b7ced86833863f482bc5f4ed82ef|Approval(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791769925,
+       "hasta_ts": 1794353784,
+       "n_hermanos": 0,
+       "n_propias": 409
+      }
+     ],
+     "lado": "ambos"
+    },
+    "erc4626_deposit": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "arbitrum|erc4626_deposit|0x0b2b2b2076d95dda7817e785989fe353fe955ef9|0x0b2b2b2076d95dda7817e785989fe353fe955ef9|Deposit(address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791765045,
+       "hasta_ts": 1794317395,
+       "n_hermanos": 0,
+       "n_propias": 171
+      }
+     ],
+     "lado": "directo"
+    },
+    "erc4626_redeem": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "arbitrum|erc4626_redeem|0x0b2b2b2076d95dda7817e785989fe353fe955ef9|0x0b2b2b2076d95dda7817e785989fe353fe955ef9|Withdraw(address,address,address,uint256,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791886234,
+       "hasta_ts": 1794327274,
+       "n_hermanos": 0,
+       "n_propias": 481
+      }
+     ],
+     "lado": "directo"
+    },
+    "erc4626_request_redeem": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "arbitrum|erc4626_request_redeem|0x0b2b2b2076d95dda7817e785989fe353fe955ef9|0x0b2b2b2076d95dda7817e785989fe353fe955ef9|RedeemRequest(address,address,uint256,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791814184,
+       "hasta_ts": 1794332420,
+       "n_hermanos": 0,
+       "n_propias": 678
+      }
+     ],
+     "lado": "directo"
+    },
+    "merkl_claim": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "arbitrum|merkl_claim|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae|Claimed(address,address,uint256)",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791764689,
+       "hasta_ts": 1794350935,
+       "n_hermanos": 0,
+       "n_propias": 1329
+      }
+     ],
+     "lado": "ambos"
+    },
+    "pendle_buy_pt": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "arbitrum|pendle_buy_pt|0xf86119a39f8654f38acbbd5488bd83f3f51983c8|0x888888888889758f76e7103c6cbf23abbf58f946|Swap(address,address,int256,int256,uint256,uint256)|pt_out>0",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791768963,
+       "hasta_ts": 1794351432,
+       "n_hermanos": 0,
+       "n_propias": 383
+      }
+     ],
+     "lado": "delegado"
+    },
+    "pendle_sell_pt": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "arbitrum|pendle_sell_pt|0xf86119a39f8654f38acbbd5488bd83f3f51983c8|0x888888888889758f76e7103c6cbf23abbf58f946|Swap(address,address,int256,int256,uint256,uint256)|pt_out<0",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791860281,
+       "hasta_ts": 1794295184,
+       "n_hermanos": 0,
+       "n_propias": 83
+      }
+     ],
+     "lado": "delegado"
+    },
+    "swap": {
+     "con_dato": true,
+     "contratos": [
+      {
+       "clave": "arbitrum|swap|0xc6962004f452be9203591991d15f6b388e09e8d0|0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45|Swap(address,address,int256,int256,uint160,uint128,int24)|[\"0x00000000000000000000000068b3465833fb72a70ecdf485e0e4c7bd8665fc45\"]",
+       "con_dato": true,
+       "criterio": "V3: todas las de la ventana, mediana de las medianas diarias",
+       "desde_ts": 1791763264,
+       "hasta_ts": 1794355052,
+       "n_hermanos": 0,
+       "n_propias": 4745
+      }
+     ],
+     "lado": "ambos"
+    }
+   },
+   "causas": [],
+   "dos_pasos": [
+    "erc4626_redeem"
+   ],
+   "medible": true,
+   "par": "P-D|arbitrum|0xf86119a39f8654f38acbbd5488bd83f3f51983c8"
+  }
+ },
+ "sin_par": {
+  "0x81f17e97b1cea46301fe6728d5619e9db2e7fb2c": "no se pudo construir el par: AttributeError: 'NoneType' object has no attribute 'lower'"
+ },
+ "tardios": [],
+ "ventana_hasta_ts": 1794355200
+}

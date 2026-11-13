@@ -1,0 +1,12 @@
+{
+ "titulo": "Metodología v1.33 — LÍNEA BASE aprobada por Rod el 2026-11-10 citando su sha; SIN borrador aprobado previo: la puerta no compara contra nada (declaración D0-6)",
+ "utc": "2026-11-10T20:39:00Z",
+ "rc": 0,
+ "no_aprobadas": 0,
+ "borrador": {
+  "/var/lib/ambassador/fase2/d0_preparacion/METODOLOGIA_SOMBRA_v1.33-draft.md": "14ab2e34e1cdb786bdc84c6b6dff2a0f096f2dd963ea8620923526955c908872"
+ },
+ "final": {
+  "/var/lib/ambassador/fase2/d0_preparacion/METODOLOGIA_SOMBRA_v1.33-draft.md": "14ab2e34e1cdb786bdc84c6b6dff2a0f096f2dd963ea8620923526955c908872"
+ }
+}
